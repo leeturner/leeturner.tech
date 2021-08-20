@@ -1,0 +1,308 @@
+baseURL = "/"
+languageCode = "en"
+title = "CV | Lee Turner"
+theme = "hugo-devresume-theme"
+#googleAnalytics = "UA-XXXXXXX-Y"
+
+[params]
+author = "Lee Turner"
+description = "Welcome to the CV of Lee Turner - Lead Backend Developer at Crunch. Hacker of code, builder of distributed systems with Spring, Java, Kotlin and Go. Runs Brighton Kotlin. (he/him)"
+
+primaryColor = "#1da1f2"
+textPrimaryColor = "#292929"
+
+
+
+    [params.profile]
+        enable = true
+        name = "Lee Turner"
+        tagline = "Lead Backend Developer at Crunch"
+        avatar = "lee_avatar.jpg"
+
+
+
+    [params.contact]
+        enable = true
+        location = "Brighton, UK"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:lee@leeturner.me"
+        text = "lee@leeturner.me"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://leeturner.me"
+        text = "https://leeturner.me"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://brightonkotlin.com"
+        text = "https://brightonkotlin.com"
+
+
+
+    [params.summary]
+        enable = true
+        text = "I am an experienced professional developer with a passion for quality software.  I am currently working at [Crunch](https://medium.com/@crunchtech) as their Lead Backend Developer. I have experience in Java, Kotlin, Spring Boot along with the full J2EE suite which all gives me an extensive toolkit to draw from. I have significant experience in test-driven development and stringent source and release management processes.  I am comfortable working either as part of a bigger development team or as a solo developer. I am the founder of the [Brighton Kotlin Meetup](https://brightonkotlin.com) - a group for Kotlin users, enthusiasts and learners from beginners to experts, and anyone wanting to get involved with the Kotlin/JVM ecosystem. My specialties are in Java & Kotlin microservice architectures using Spring and Spring Boot, test-driven development, agile software development. More recently I am having a play with Kotlin focused technologies like Ktor"
+
+
+
+    [params.experience]
+        enable = true
+        [[params.experience.list]]
+        title = "Lead Backend Developer"
+        dates = "May 2020 – Present"
+        company = "Crunch"
+
+        [[params.experience.list]]
+        title = "Senior Java Developer"
+        dates = "Sep 2018 – May 2020"
+        company = "Crunch"
+        details = "Java/Kotlin developer responsible for new technologies and replacing our core accountancy application."
+        [[params.experience.list.items]]
+        details = "Technical lead on Crunch's single sign on project bringing authentication and user management of all Crunch products into a single portal. This project paves the way for Crunch's long term plans to systematically rebuild their core accountancy application."
+        [[params.experience.list.items]]
+        details = "Responsible for architecting and building Crunch's initial Open Banking implementation consisting of multiple Spring Boot microservices interfacing with external bank APIs"
+
+        [[params.experience.list]]
+        title = "Java Developer"
+        dates = "Aug 2017 – Sep 2018"
+        company = "Crunch"
+        details = "Java developer on the core product team – responsible for the maintenance and improvement of Crunch’s core accounting SASS product and key business critical microservices using agile methodologies."
+        [[params.experience.list.items]]
+        details = "Part of the core product team responsible for new features, bug fixes and testing of Crunch’s core accounting product. "
+        [[params.experience.list.items]]
+        details = "Using agile development practices to take the stories defined and prioritised by the Product Owner and architecting solutions to meet those requirements."
+        [[params.experience.list.items]]
+        details = "Assisting with the full end to end release management process - deploying software to development, test and production environments."
+        [[params.experience.list.items]]
+        details = "Taking part in code reviews from other developers in the team and providing constructive feedback."
+        [[params.experience.list.items]]
+        details = "Building, testing and deploying Spring Boot microservices to interface with external API from strategic partners such as Salesforce and receipt processing services."
+        [[params.experience.list.items]]
+        details = "Passionate about promoting best practice and new technologies with the wider engineering team by presenting tech talks on topics such as Mutation Testing and Fn Project"
+
+        [[params.experience.list]]
+        title = "Brighton Kotlin Founder & Organiser"
+        dates = "August 2019 – Present"
+        company = "Brighton Kotlin"
+        details = "This is a group is for Kotlin users, enthusiasts and learners from beginners to experts, and anyone wanting to get involved with the Kotlin/JVM ecosystem.  The aim of Brighton Kotlin is to build a community of people who get together to have regular meetups, presentations, talks, code labs and hackathons"
+
+        [[params.experience.list]]
+        title = "Founder and Paid Media Specialist"
+        dates = "Jan 2007 – July 2020"
+        company = "From Small Acorns"
+        details = "Owner and founder of From Small Acorns created to provide PPC management & advertising for high growth businesses. I prefer a hands-on, consultative role where I can get under the hood of our client’s business to fully understand where we can add value."
+        [[params.experience.list.items]]
+        details = "Responsible for business development – organisation growth, client acquisition and client on-boarding."
+        [[params.experience.list.items]]
+        details = "Client engagement and needs analysis – as the primary contact for our clients, I engage with people at all levels of the origanisation to define a strategy that will achieve our client’s goals."
+        [[params.experience.list.items]]
+        details = "Team Success – Supporting our team in the implementation and monitoring of that strategy through to successful outcome for our clients."
+        [[params.experience.list.items]]
+        details = "Creating custom measurement plans specific to our client’s business and implementing those plans using Google Analytics."
+        [[params.experience.list.items]]
+        details = "Working closely with our team to constantly test new marketing strategies and update our working practices to achieve the best results for our clients"
+        [[params.experience.list.items]]
+        details = "While not a core part of what we do for our clients I often helped our clients install, configure and optimise their websites. These were predominantly PHP based websites using Wordpress and Drupal."
+        [[params.experience.list.items]]
+        details = "Developing in-house data analysis tools for our team to use on clients projects. These were web based tools using a number different technologies and frameworks including Java/Grails and PHP/Cakephp."
+
+        [[params.experience.list]]
+        title = "Senior Java Developer"
+        dates = "Jan 2005 – Sept 2007"
+        company = "LBi"
+        details = "Map of Medicine, NHS National Programme for IT (NPfIT). Responsible for the development of the end user component of the Map of Medicine. This is the component that displays the map content across all specialties to clinicians and patients, Technologies Used: Java, Spring, Spring Webflow, Cocoon, XML, XSLT and Java Server Pages"
+        [[params.experience.list.items]]
+        details = "Refactoring an existing code base as well as architecting and developing applications from scratch."
+        [[params.experience.list.items]]
+        details = "Introduction of a test driven development model to the core development team and later expanding that out to a remote team in Poland."
+        [[params.experience.list.items]]
+        details = "Creation and testing of an automated build and continuous integration process to support our new release procedures."
+        [[params.experience.list.items]]
+        details = "Creation of the initial performance testing suite."
+        [[params.experience.list.items]]
+        details = "Updates to the application required to ensure it met the stringent performance criteria specified by the client and the NHS authority."
+        [[params.experience.list.items]]
+        details = "Involved in a move to Agile development practices for the whole development team – leading daily scrum stand ups."
+        [[params.experience.list.items]]
+        details = "Visiting client sites to consult on environment setup and configuration. Once the performance testing was complete I was responsible"
+
+        [[params.experience.list]]
+        title = "Senior Java Developer"
+        dates = "Oct 2001 – Jan 2005"
+        company = "Logica"
+        details = "Mar 2004 – Jan 2005: NHS National Programme for IT (NPfIT) developing the Clinical Spine Application (CSA) Responsible for developing library of common components, developed in both XSL and Java, to provide a unified consistent front end to the user. Technologies Used: Java, XML, XSLT, CSS, Struts, Spring framework, Apache Ant"
+        [[params.experience.list.items]]
+        details = "Ensuring all user interface elements conformed to the World Wide Web Consortium (W3C) guidelines on web content accessibility."
+        [[params.experience.list.items]]
+        details = "Responsible for developing W3C compliant Cascading Style Sheets which would remain consistent across four different browsers on two different platforms."
+        [[params.experience.list.items]]
+        details = "Developed two prototypes to investigate the use of web applications frameworks within the overall architecture."
+        [[params.experience.list.items]]
+        details = "Introduced Spring Framework which was used extensively throughout the presentation layer as a means of controlling application logic."
+        [[params.experience.list.items]]
+        details = "Introduction of Apache Ant as a programme wide build tool."
+
+        [[params.experience.list]]
+        title = "Senior Java Developer"
+        dates = "Oct 2001 – Mar 2004"
+        company = "Britannia Building Society"
+        details = "Systems Integration Stream, Britannia Building Society Responsible for the development and release management of the integration components developed in the systems integration stream. Technologies Used: Java, EJB, Servlets, XML, XSLT, HTML, MQ Series, JMS, Apache Ant and Oracle. "
+        [[params.experience.list.items]]
+        details = "Development of a XML/XSLT based thin browser client and Java servlet responsible for delegating requests to and processing responses from various distributed server components via MQ Series."
+        [[params.experience.list.items]]
+        details = "Requirements gathering, design using UML, proof of concept, development, documentation and deployment."
+        [[params.experience.list.items]]
+        details = "Coordinating a team of developers to ensure quality and timely software releases"
+        [[params.experience.list.items]]
+        details = "Coordinating a support team to ensure the availability of the testing environments and managing faults raised by the test team."
+        [[params.experience.list.items]]
+        details = "Introduction of the Apache Ant build tool as a means to build all components developed by the systems integration stream."
+
+        [[params.experience.list]]
+        title = "Systems Developer"
+        dates = "July 1999 – Oct 2001"
+        company = "Watt Gilchrist Ltd (Formerly Gilchrist Bros. Ltd)"
+        details = "Responsible for reviewing all development procedures and technologies with the aim of providing a platform to build all future internet based systems. Technologies Used: Java, EJB, Servlets, JavaMail, Weblogic Application Server, Oracle DB, UML"
+        [[params.experience.list.items]]
+        details = "Introduction of UML for the documentation of user requirements and the modelling of system specifications."
+        [[params.experience.list.items]]
+        details = "Development of POC (Proof Of Concept) prototype using Java 2 Enterprise Edition (EJB, Servlets), with Oracle as back end database and WebLogic as middle tier application server."
+        [[params.experience.list.items]]
+        details = "Development of a web based front end using Java Servlets, authenticated access via Oracle database."
+        [[params.experience.list.items]]
+        details = "Development of architecture for general purpose security and personalisation modules – user ID/password authentication, user management and incorporating JavaMail for notifications, alerts etc."
+
+        [[params.experience.list]]
+        title = "Analyst/Programmer"
+        dates = "June 1997 – Sept 1998"
+        company = "Gilchrist Bros. Ltd"
+        details = "Responsible for application development, testing, implementation and organisation wide deployment of in-house custom applications. Technologies Used: Magic rapid application development environment, Visual Basic, Btrieve and MS SQL Server"
+        [[params.experience.list.items]]
+        details = "Liaison with managers and users re application and systems development requirements"
+        [[params.experience.list.items]]
+        details = "Development of a production/accounting tool for Asda Wal-Mart managing a cash flow of £6 million pounds per annum."
+
+
+
+    [params.projects]
+        enable = true
+        [[params.projects.list]]
+        title = "Hugo Progression Framework"
+        url = "https://leeturner.me/posts/hugo-progression-framework/"
+        meta = "Open Source, Hugo, template"
+        tagline = "**Hugo Progression** is a [Hugo](https://gohugo.io/) template that can render progression frameworks using the same data format as the [Monzo progression framework](https://github.com/monzo/progression-framework). A progression framework (or *competency matrix*, *career ladder*, *career pathway*) is a tool to help people within an organisation understand where they currently are and how to progress and grow in their work. It also helps an organisation map people’s competencies (their skills and knowledge) to compensation (how they’re rewarded for them financially) - find out more information in [this blog post](https://leeturner.me/posts/hugo-progression-framework/) or on [GitHub](https://github.com/leeturner/hugo-progression)"
+
+        [[params.projects.list]]
+        title = "pinboard2markdown"
+        url = "https://github.com/leeturner/pinboard2markdown"
+        meta = "Open Source, Kotlin, Spring Boot"
+        tagline = "pinboard2markdown is a command line tool written in [Kotlin](https://kotlinlang.org) and [Spring Boot](https://start.spring.io) that communicates with the [pinboard.in api](https://pinboard.in/api/) to retrieve a selection of bookmarks that are tagged with a specified tag.  It then converts those bookmarks to markdown and outputs them to the terminal. I use this tool to build regular newsletters for the backend developers at [Crunch](https://medium.com/@crunchtech) and to generate my [Geek Reads](https://leeturner.me/tags/bookmarks/) posts "
+
+        [[params.projects.list]]
+        title = "BlinkyTapeTestWatcher"
+        url = "https://github.com/leeturner/BlinkyTapeTestWatcher"
+        meta = "Open Source, Kotlin, JUnit"
+        tagline = "BlinkyTapeTestWatcher is a fun little [Kotlin](https://kotlinlang.org) based implementation of the [Junit 5](https://junit.org/junit5/) [TestWatcher API](https://junit.org/junit5/docs/5.5.1/api/org/junit/jupiter/api/extension/TestWatcher.html) that hooks up your tests to a BlinkyTape LED strip - find out more information in this [blog post](https://leeturner.me/posts/blinkytape-junit-testwatcher/) which also contains a video of it in action"
+
+
+    [params.skills]
+        enable = true
+        [[params.skills.list]]
+        title = "What I can do"
+        [[params.skills.list.items]]
+        details = "Kotlin/Java"
+        [[params.skills.list.items]]
+        details = "Spring Boot"
+        [[params.skills.list.items]]
+        details = "Golang/Python"
+        [[params.skills.list.items]]
+        details = "Test-driven development"
+        [[params.skills.list.items]]
+        details = "Database (MySQL, Postgress)"
+        [[params.skills.list.items]]
+        details = "Docker, k8s"
+        [[params.skills.list.items]]
+        details = "CI/CD"
+        [[params.skills.list.items]]
+        details = "Agile development practices with extreme programming and scrum"
+        [[params.skills.list.items]]
+        details = "Source code and release management"
+        [[params.skills.list.items]]
+        details = "Communicate with clients and users and all levels of an organisation."
+        [[params.skills.list.items]]
+        details = "Provide solutions where user requirements appear challenging"
+
+        [[params.skills.list]]
+        title = "About Me"
+        [[params.skills.list.items]]
+        details = "Pasionate about the craft of software development"
+        [[params.skills.list.items]]
+        details = "Continuous learner"
+        [[params.skills.list.items]]
+        details = "Analytical and logical working style"
+        [[params.skills.list.items]]
+        details = "Excellent relationship building"
+        [[params.skills.list.items]]
+        details = "Consistently high energy & enthusiasm"
+        [[params.skills.list.items]]
+        details = "Flexible & adaptable to different roles at different levels"
+        [[params.skills.list.items]]
+        details = "Commitment to deliver"
+        [[params.skills.list.items]]
+        details = "Naturally positive outlook"
+        [[params.skills.list.items]]
+        details = "Able to influence and overcome objections"
+
+
+
+    [params.education]
+        enable = true
+        [[params.education.list]]
+        degree = "BSc. in Information Systems (with year in industry)"
+        university = "University of Leeds"
+        dates = "1995 - 2000"
+        [[params.education.list]]
+        degree = "BTech Computer Studies"
+        university = "Chesterfield College"
+        dates = "1993 - 1995"
+
+
+
+    [params.languages]
+        enable = true
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+
+
+
+    [params.awards]
+        enable = true
+        [[params.awards.list]]
+        name = "Kubernetes in Practice - Beginner Level"
+        body = "Jetstack"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award for Oracle MOOC: Java Virtual Machine Troubleshooting"
+        body = "Oracle"
+        date = "2018"
+
+
+
+    [params.social]
+        enable = true
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/leeturner"
+        title = "Github"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/turnerlee/"
+        title = "LinkkedIn"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/leeturner"
+        title = "@leeturner"
+
+    [params.footer]
+        copyright = "Lee Turner"
