@@ -16,5 +16,7 @@
     {{ $style := resources.Get "scss/devresume.scss" | resources.ExecuteAsTemplate "scss/devresume.scss" . | toCSS (dict "targetPath" "assets/css/devresume.css") | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
 
+    {{ if .Site.Params.custom_css }}
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/assets/css/custom.css">
+    <link rel="stylesheet" href="{{ .Site.Params.custom_css }}">
+    {{ end }}
