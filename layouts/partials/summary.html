@@ -1,0 +1,18 @@
+
+                <div class="resume-intro py-3">
+
+                    <div class="media flex-column flex-md-row align-items-center">
+
+                        {{ if .Site.Params.profile.avatar }}
+                        <img class="resume-profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" src="{{ .Site.BaseURL }}assets/images/{{ .Site.Params.profile.avatar }}" alt="image">
+                        {{ end }}
+
+                        <div class="media-body text-left">
+                            {{ range .Site.Params.summary.paragraph }}
+                            <p class="mb-0">{{ .text | markdownify }}</p>
+                            {{ end }}
+                        </div><!--//media-body-->
+
+                    </div>
+
+                </div><!--//resume-intro-->
