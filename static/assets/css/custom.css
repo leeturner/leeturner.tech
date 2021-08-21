@@ -1,7 +1,11 @@
+.resume-intro .mb-0 {
+    margin-bottom: .9rem !important;
+}
+
 .resume-main .item {
     margin-bottom: 3rem !important;
 }
 
 .resume-profile-image {
-    max-width: 160px;
+    max-width: 250px;
 }
