@@ -95,9 +95,9 @@ textPrimaryColor = "#292929"
         [[params.experience.list.items]]
         details = "Responsible for business development – organisation growth, client acquisition and client on-boarding."
         [[params.experience.list.items]]
-        details = "Client engagement and needs analysis – as the primary contact for our clients, I engage with people at all levels of the origanisation to define a strategy that will achieve our client’s goals."
+        details = "Client engagement and needs analysis – as the primary contact for our clients, I engage with people at all levels of the organisation to define a strategy that will achieve our client’s goals."
         [[params.experience.list.items]]
-        details = "Team Success – Supporting our team in the implementation and monitoring of that strategy through to successful outcome for our clients."
+        details = "Team Success – Supporting our team in the implementation and monitoring of that strategy through too successful outcome for our clients."
         [[params.experience.list.items]]
         details = "Creating custom measurement plans specific to our client’s business and implementing those plans using Google Analytics."
         [[params.experience.list.items]]
@@ -147,7 +147,7 @@ textPrimaryColor = "#292929"
         title = "Senior Java Developer"
         dates = "Oct 2001 – Mar 2004"
         company = "Britannia Building Society"
-        details = "Systems Integration Stream, Britannia Building Society Responsible for the development and release management of the integration components developed in the systems integration stream. Technologies Used: Java, EJB, Servlets, XML, XSLT, HTML, MQ Series, JMS, Apache Ant and Oracle. "
+        details = "Systems Integration Stream, Britannia Building Society. Responsible for the development and release management of the integration components developed in the systems integration stream. Technologies Used: Java, EJB, Servlets, XML, XSLT, HTML, MQ Series, JMS, Apache Ant and Oracle. "
         [[params.experience.list.items]]
         details = "Development of a XML/XSLT based thin browser client and Java servlet responsible for delegating requests to and processing responses from various distributed server components via MQ Series."
         [[params.experience.list.items]]
@@ -236,7 +236,7 @@ textPrimaryColor = "#292929"
         [[params.skills.list]]
         title = "About Me"
         [[params.skills.list.items]]
-        details = "Pasionate about the craft of software development"
+        details = "Passionate about the craft of software development"
         [[params.skills.list.items]]
         details = "Continuous learner"
         [[params.skills.list.items]]
