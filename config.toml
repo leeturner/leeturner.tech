@@ -1,3 +1,7 @@
+# Disable unused pages/routes
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+# Page settings
 baseURL = "/"
 languageCode = "en"
 title = "CV | Lee Turner"
@@ -59,6 +63,7 @@ textPrimaryColor = "#292929"
         title = "Lead Backend Developer"
         dates = "May 2020 – Present"
         company = "Crunch"
+        details = "As Lead backend Developer I am the leader, convenor, and organiser of the backend function. I provide a single point of contact with the Head of Solutions Architecture and Principal Technical Architect, Head of Engineering, and Lead Front End Developer. I am responsible for playing a key role in setting direction and to then embed within the backend funcion, ensuring all backend developers can work productively and happily. Part of my role as Lead Backend Developer is to provide a Developer Advocacy role, being a conduit between Crunch Engineering and the world of software developers externally and in the process raise Crunch brand awareness."
 
         [[params.experience.list]]
         title = "Senior Java Developer"
