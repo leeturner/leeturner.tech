@@ -6,7 +6,7 @@ baseURL = "/"
 languageCode = "en"
 title = "CV | Lee Turner"
 theme = "hugo-devresume-theme"
-#googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "UA-115883229-2"
 
 [params]
 author = "Lee Turner"
