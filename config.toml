@@ -5,7 +5,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 baseURL = "/"
 languageCode = "en"
 title = "CV | Lee Turner"
-theme = "hugo-devresume-theme"
+theme = "hugo-devresume-theme-v2"
 googleAnalytics = "UA-115883229-2"
 
 [params]
