@@ -59,6 +59,7 @@ textPrimaryColor = "#292929"
 
     [params.experience]
         enable = true
+        title = "Work Experience"
         [[params.experience.list]]
         title = "Lead Backend Developer"
         dates = "May 2020 – Present"
@@ -217,6 +218,7 @@ textPrimaryColor = "#292929"
 
     [params.projects]
         enable = true
+        title = "Projects"
         [[params.projects.list]]
         title = "Hugo Progression Framework"
         url = "https://leeturner.me/posts/hugo-progression-framework/"
@@ -236,10 +238,57 @@ textPrimaryColor = "#292929"
         tagline = "BlinkyTapeTestWatcher is a fun little [Kotlin](https://kotlinlang.org) based implementation of the [Junit 5](https://junit.org/junit5/) [TestWatcher API](https://junit.org/junit5/docs/5.5.1/api/org/junit/jupiter/api/extension/TestWatcher.html) that hooks up your tests to a BlinkyTape LED strip - find out more information in this [blog post](https://leeturner.me/posts/blinkytape-junit-testwatcher/) which also contains a video of it in action"
 
 
+
+    [params.information]
+        enable = true
+        title = "Information"
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+    [params.education]
+        enable = true
+        title = "Education"
+        [[params.education.list]]
+        degree = "BSc. in Information Systems (with year in industry)"
+        university = "University of Leeds"
+        dates = "1995 - 2000"
+        [[params.education.list]]
+        degree = "BTech Computer Studies"
+        university = "Chesterfield College"
+        dates = "1993 - 1995"
+
+
+
+    [params.awards]
+        enable = true
+        title = "Courses"
+        [[params.awards.list]]
+        name = "Kubernetes in Practice - Beginner Level"
+        body = "Jetstack"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award for Oracle MOOC: Java Virtual Machine Troubleshooting"
+        body = "Oracle"
+        date = "2018"
+
+
+
     [params.skills]
         enable = true
+        title = "Skills"
         [[params.skills.list]]
-        title = "What I can do"
+        title = "Technical"
         [[params.skills.list.items]]
         details = "Kotlin/Java"
         [[params.skills.list.items]]
@@ -258,13 +307,9 @@ textPrimaryColor = "#292929"
         details = "Agile development practices with extreme programming and scrum"
         [[params.skills.list.items]]
         details = "Source code and release management"
-        [[params.skills.list.items]]
-        details = "Communicate with clients and users and all levels of an organisation."
-        [[params.skills.list.items]]
-        details = "Provide solutions where user requirements appear challenging"
 
-        [[params.skills.list]]
-        title = "About Me"
+    [[params.skills.list]]
+        title = "Professional"
         [[params.skills.list.items]]
         details = "Passionate about the craft of software development"
         [[params.skills.list.items]]
@@ -283,40 +328,33 @@ textPrimaryColor = "#292929"
         details = "Naturally positive outlook"
         [[params.skills.list.items]]
         details = "Able to influence and overcome objections"
+        [[params.skills.list.items]]
+        details = "Communicate with clients and users and all levels of an organisation."
+        [[params.skills.list.items]]
+        details = "Provide solutions where user requirements appear challenging"
 
 
 
-    [params.education]
-        enable = true
-        [[params.education.list]]
-        degree = "BSc. in Information Systems (with year in industry)"
-        university = "University of Leeds"
-        dates = "1995 - 2000"
-        [[params.education.list]]
-        degree = "BTech Computer Studies"
-        university = "Chesterfield College"
-        dates = "1993 - 1995"
-
-
-
-    [params.languages]
-        enable = true
+[params.languages]
+enable = true
+        title = "Languages"
         [[params.languages.list]]
         name = "English"
         level = "Native"
 
 
 
-    [params.awards]
+    [params.interests]
         enable = true
-        [[params.awards.list]]
-        name = "Kubernetes in Practice - Beginner Level"
-        body = "Jetstack"
-        date = "2019"
-        [[params.awards.list]]
-        name = "Award for Oracle MOOC: Java Virtual Machine Troubleshooting"
-        body = "Oracle"
-        date = "2018"
+        title = "Interests"
+        [[params.interests.list]]
+        name = "Climbing"
+        [[params.interests.list]]
+        name = "Snowboarding"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
 
 
 
