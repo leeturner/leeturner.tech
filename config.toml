@@ -220,20 +220,17 @@ textPrimaryColor = "#292929"
         enable = true
         title = "Projects"
         [[params.projects.list]]
-        title = "Hugo Progression Framework"
-        url = "https://leeturner.me/posts/hugo-progression-framework/"
+        title = "[Hugo Progression Framework](https://leeturner.me/posts/hugo-progression-framework/)"
         meta = "Open Source, Hugo, template"
         tagline = "**Hugo Progression** is a [Hugo](https://gohugo.io/) template that can render progression frameworks using the same data format as the [Monzo progression framework](https://github.com/monzo/progression-framework). A progression framework (or *competency matrix*, *career ladder*, *career pathway*) is a tool to help people within an organisation understand where they currently are and how to progress and grow in their work. It also helps an organisation map people’s competencies (their skills and knowledge) to compensation (how they’re rewarded for them financially) - find out more information in [this blog post](https://leeturner.me/posts/hugo-progression-framework/) or on [GitHub](https://github.com/leeturner/hugo-progression)"
 
         [[params.projects.list]]
-        title = "pinboard2markdown"
-        url = "https://github.com/leeturner/pinboard2markdown"
+        title = "[pinboard2markdown](https://leeturner.me/posts/pinboard2markdown/)"
         meta = "Open Source, Kotlin, Spring Boot"
         tagline = "pinboard2markdown is a command line tool written in [Kotlin](https://kotlinlang.org) and [Spring Boot](https://start.spring.io) that communicates with the [pinboard.in api](https://pinboard.in/api/) to retrieve a selection of bookmarks that are tagged with a specified tag.  It then converts those bookmarks to markdown and outputs them to the terminal. I use this tool to build regular newsletters for the backend developers at [Crunch](https://medium.com/@crunchtech) and to generate my [Geek Reads](https://leeturner.me/tags/bookmarks/) posts "
 
         [[params.projects.list]]
-        title = "BlinkyTapeTestWatcher"
-        url = "https://github.com/leeturner/BlinkyTapeTestWatcher"
+        title = "[BlinkyTapeTestWatcher](https://leeturner.me/posts/BlinkyTapeTestWatcher/)"
         meta = "Open Source, Kotlin, JUnit"
         tagline = "BlinkyTapeTestWatcher is a fun little [Kotlin](https://kotlinlang.org) based implementation of the [Junit 5](https://junit.org/junit5/) [TestWatcher API](https://junit.org/junit5/docs/5.5.1/api/org/junit/jupiter/api/extension/TestWatcher.html) that hooks up your tests to a BlinkyTape LED strip - find out more information in this [blog post](https://leeturner.me/posts/blinkytape-junit-testwatcher/) which also contains a video of it in action"
 
