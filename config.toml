@@ -47,13 +47,32 @@ textPrimaryColor = "#292929"
     [params.summary]
         enable = true
         [[params.summary.paragraph]]
-        text = "I am an experienced professional developer with a passion for quality software.  I am currently working at [Crunch](https://medium.com/@crunchtech) as their Lead Backend Developer. I have experience in Java, Kotlin, Spring Boot along with the full J2EE suite which all gives me an extensive toolkit to draw from. I have significant experience in test-driven development and stringent source and release management processes.  I am comfortable working either as part of a bigger development team or as a solo developer."
+        text = "I am an experienced software engineer with over 20 years experience working on large scale software implementations and have a passion for well crafted, pragmatically tested software. I am currently working at [Crunch](https://medium.com/@crunchtech) as their Lead Backend Developer and have significant experience in Java, Kotlin and Spring Boot along with test-driven development and stringent source and release management processes. I am also experienced with agile practices such as scrum, pair programming and continuous integration."
         [[params.summary.paragraph]]
-        text = "I am constantly learning and extending my skills. I contribute to open-source projects and write and present about software development and software testing. While my specialties are definitely in backend development, I can put my hand to frontend technologies if required, and I am also experienced with agile practices such as scrum, pair programming and continuous integration."
+        text = "I am constantly learning and extending my skills and am able to become proficient in new langages quickly. I contribute to open-source projects and write and present about software development and software testing and I am comfortable working either as part of a bigger development team or as a solo developer."
         [[params.summary.paragraph]]
         text = "I am the founder of the [Brighton Kotlin Meetup](https://brightonkotlin.com) - a group for Kotlin users, enthusiasts and learners from beginners to experts, and anyone wanting to get involved with the Kotlin/JVM ecosystem."
         [[params.summary.paragraph]]
-        text = "My specialties are in Java & Kotlin microservice architectures using Spring and Spring Boot, test-driven development, agile software development. More recently I am having a play with Kotlin focused technologies like Ktor."
+        text = "My specialties are in Java & Kotlin microservice architectures using Spring Boot, test-driven development and and agile software development."
+
+
+
+    [params.achievements]
+        enable = true
+        title = "Key Achievements"
+        details = ""
+        [[params.achievements.list]]
+        details = "**Technical & implementation lead on Crunch's single sign on project** bringing authentication and user management of all Crunch products into a single portal and implementation. This project paved the way for Crunch's long term plans to systematically rebuild their core accountancy application."
+        [[params.achievements.list]]
+        details = "**Introduced Kotlin into the backend echo-system** as an option for Crunch developers.  Building our initial exemplar Kotlin Spring Boot services to provide reference points for the backend team"
+        [[params.achievements.list]]
+        details = "**Implemented a Progression Framework** across the Crunch engineering function to provide our developers clarity over where they currently are and how to progress and grow in their work"
+        [[params.achievements.list]]
+        details = "**Designed and developed a suite of common Java and XSL components** which allowed developers of the NHS Clinical Spine Application to provide a consistent user experience which conformed to the World Wide Web Consortium (W3C) guidelines on Web Content Accessibility."
+        [[params.achievements.list]]
+        details = "**Being a key member of the team which delivered the \"Really Big Programme\"** at Britannia Building Society – winner of the BCS Financial and Related Services Award 2004, the BCS Flagship Achievement Award 2004 and Corporate IT Forum Project of the Year 2004."
+        [[params.achievements.list]]
+        details = "**Delivered to time and quality** a bespoke browser based mortgage system to be utilised across all Britannia branches."
 
 
 
@@ -87,11 +106,11 @@ textPrimaryColor = "#292929"
         company = "Crunch"
         details = "Java/Kotlin developer responsible for new technologies and replacing our core accountancy application."
         [[params.experience.list.items]]
-        details = "Technical lead on Crunch's single sign on project bringing authentication and user management of all Crunch products into a single portal. This project paved the way for Crunch's long term plans to systematically rebuild their core accountancy application."
+        details = "Technical & implementation lead on Crunch's single sign on project bringing authentication and user management of all Crunch products into a single portal and implementation. This project paved the way for Crunch's long term plans to systematically rebuild their core accountancy application.  Managed the in-house development team along side various contractors throughout the life of the project."
         [[params.experience.list.items]]
         details = "Responsible for architecting and building Crunch's initial Open Banking implementation consisting of multiple Spring Boot microservices interfacing with external bank APIs"
         [[params.experience.list.items]]
-        details = "Along with the Principal Architect, responsible for introducing Kotlin into the backend echosystem as an option for our developers.  Bulding our initial exemplar Kotlin services to provide reference points for the backend team"
+        details = "Along with the Principal Architect, responsible for introducing Kotlin into the backend echo-system as an option for our developers.  Building our initial exemplar Kotlin services to provide reference points for the backend team"
 
 
         [[params.experience.list]]
@@ -119,10 +138,12 @@ textPrimaryColor = "#292929"
         details = "This is a group is for Kotlin users, enthusiasts and learners from beginners to experts, and anyone wanting to get involved with the Kotlin/JVM ecosystem.  The aim of Brighton Kotlin is to build a community of people who get together to have regular meetups, presentations, talks, code labs and hackathons"
 
         [[params.experience.list]]
-        title = "Founder and Paid Media Specialist"
+        title = "Founder"
         dates = "Jan 2007 – July 2020"
         company = "From Small Acorns"
-        details = "Owner and founder of From Small Acorns created to provide PPC management & advertising for high growth businesses. I prefer a hands-on, consultative role where I can get under the hood of our client’s business to fully understand where we can add value."
+        details = "Owner and founder of From Small Acorns created to provide Technical Consultancy for high growth businesses. I provided a hands-on, consultative role where I got under the hood of our client’s business to fully understand where we could add value."
+        [[params.experience.list.items]]
+        details = "Developing in-house data analysis tools for our team to use on clients projects. These were web based tools using a number different technologies and frameworks including Java/Grails and PHP/Cakephp."
         [[params.experience.list.items]]
         details = "Responsible for business development – organisation growth, client acquisition and client on-boarding."
         [[params.experience.list.items]]
@@ -134,9 +155,7 @@ textPrimaryColor = "#292929"
         [[params.experience.list.items]]
         details = "Working closely with our team to constantly test new marketing strategies and update our working practices to achieve the best results for our clients"
         [[params.experience.list.items]]
-        details = "While not a core part of what we do for our clients I often helped our clients install, configure and optimise their websites. These were predominantly PHP based websites using Wordpress and Drupal."
-        [[params.experience.list.items]]
-        details = "Developing in-house data analysis tools for our team to use on clients projects. These were web based tools using a number different technologies and frameworks including Java/Grails and PHP/Cakephp."
+        details = "Helped our clients install, configure and optimise their websites. These were predominantly PHP based websites using Wordpress and Drupal."
 
         [[params.experience.list]]
         title = "Senior Java Developer"
@@ -161,7 +180,7 @@ textPrimaryColor = "#292929"
         [[params.experience.list]]
         title = "Senior Java Developer"
         dates = "Oct 2001 – Jan 2005"
-        company = "Logica"
+        company = "LogicaCMG UK Ltd"
         details = "Mar 2004 – Jan 2005: NHS National Programme for IT (NPfIT) developing the Clinical Spine Application (CSA) Responsible for developing library of common components, developed in both XSL and Java, to provide a unified consistent front end to the user. Technologies Used: Java, XML, XSLT, CSS, Struts, Spring framework, Apache Ant"
         [[params.experience.list.items]]
         details = "Ensuring all user interface elements conformed to the World Wide Web Consortium (W3C) guidelines on web content accessibility."
@@ -216,6 +235,24 @@ textPrimaryColor = "#292929"
 
 
 
+    [params.trainings]
+        enable = true
+        title = "Courses & Training"
+        [[params.trainings.list]]
+        title = "Kotlin For Java Developers"
+        meta = "Udemy, 2019"
+        tagline = "Up skilling in Kotlin to enable the introduction of Kotlin as an option for Crunch backend developers"
+        [[params.trainings.list]]
+        title = "[Kubernetes in Practice](https://www.jetstack.io/training/kubernetes-in-practice-day1/)"
+        meta = "Jetstack, 2019"
+        tagline = "Provision a Kubernetes cluster, Run an application on Kubernetes and examine its logs and monitor its health, Use Readiness and Liveness probes to allow Kubernetes to maintain an application"
+        [[params.trainings.list]]
+        title = "[Oracle MOOC: Java Virtual Machine Troubleshooting](https://www.credly.com/badges/f0961cc5-b4ba-45a3-adab-719da1ec81d7/linked_in_profile)"
+        meta = "Oracle, 2018"
+        tagline = "Understand Memory Management and Garbage Collection, Recognise the Symptoms of Memory Problems, Utilise Diagnostic Data Collection and Analysis tools "
+
+
+
     [params.projects]
         enable = true
         title = "Projects"
@@ -237,7 +274,7 @@ textPrimaryColor = "#292929"
 
 
     [params.information]
-        enable = true
+        enable = false
         title = "Information"
         [[params.information.list]]
         title = "Papers"
@@ -268,16 +305,12 @@ textPrimaryColor = "#292929"
 
 
     [params.awards]
-        enable = true
-        title = "Courses"
+        enable = false
+        title = "Awards"
         [[params.awards.list]]
-        name = "Kubernetes in Practice - Beginner Level"
-        body = "Jetstack"
-        date = "2019"
-        [[params.awards.list]]
-        name = "Award for Oracle MOOC: Java Virtual Machine Troubleshooting"
-        body = "Oracle"
-        date = "2018"
+        name = ""
+        body = ""
+        date = ""
 
 
 
@@ -332,8 +365,8 @@ textPrimaryColor = "#292929"
 
 
 
-[params.languages]
-enable = true
+    [params.languages]
+        enable = true
         title = "Languages"
         [[params.languages.list]]
         name = "English"
@@ -345,13 +378,15 @@ enable = true
         enable = true
         title = "Interests"
         [[params.interests.list]]
-        name = "Climbing"
+        name = "Drawing & Sketchnoting"
         [[params.interests.list]]
-        name = "Snowboarding"
+        name = "Retro Gaming"
         [[params.interests.list]]
-        name = "Photography"
+        name = "Application Security & Ethical Hacking"
         [[params.interests.list]]
-        name = "Travelling"
+        name = "Chaos Engineering"
+        [[params.interests.list]]
+        name = "Raspberry Pi & Robotics"
 
 
 
@@ -369,6 +404,16 @@ enable = true
         icon = "fab fa-twitter-square"
         url = "//twitter.com/leeturner"
         title = "@leeturner"
+        [[params.social.list]]
+        icon = "fas fa-rss-square"
+        url = "//leeturner.me/"
+        title = "Personal Blog"
+        [[params.social.list]]
+        icon = "fas fa-rss-square"
+        url = "//brightonkotlin.com/"
+        title = "Brighton Kotlin"
+
+
 
     [params.footer]
         copyright = "Lee Turner"
