@@ -111,6 +111,8 @@ textPrimaryColor = "#292929"
         details = "Responsible for architecting and building Crunch's initial Open Banking implementation consisting of multiple Spring Boot microservices interfacing with external bank APIs"
         [[params.experience.list.items]]
         details = "Along with the Principal Architect, responsible for introducing Kotlin into the backend echo-system as an option for our developers.  Building our initial exemplar Kotlin services to provide reference points for the backend team"
+        [[params.experience.list.items]]
+        details = "Responsible for migrating our entire fleet of microservices from JUnit 4 to JUnit 5 (Jupiter)"
 
 
         [[params.experience.list]]
