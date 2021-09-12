@@ -53,7 +53,7 @@ textPrimaryColor = "#292929"
         [[params.summary.paragraph]]
         text = "I am the founder of the [Brighton Kotlin Meetup](https://brightonkotlin.com) - a group for Kotlin users, enthusiasts and learners from beginners to experts, and anyone wanting to get involved with the Kotlin/JVM ecosystem."
         [[params.summary.paragraph]]
-        text = "My specialties are in Java & Kotlin microservice architectures using Spring Boot, test-driven development and and agile software development."
+        text = "My specialties are in Java & Kotlin microservice architectures using Spring Boot, test-driven development and agile software development."
 
 
 
