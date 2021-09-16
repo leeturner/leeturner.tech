@@ -181,9 +181,9 @@ textPrimaryColor = "#292929"
 
         [[params.experience.list]]
         title = "Senior Java Developer"
-        dates = "Oct 2001 – Jan 2005"
+        dates = "Mar 2004 – Jan 2005"
         company = "LogicaCMG UK Ltd"
-        details = "Mar 2004 – Jan 2005: NHS National Programme for IT (NPfIT) developing the Clinical Spine Application (CSA) Responsible for developing library of common components, developed in both XSL and Java, to provide a unified consistent front end to the user. Technologies Used: Java, XML, XSLT, CSS, Struts, Spring framework, Apache Ant"
+        details = "NHS National Programme for IT (NPfIT) developing the Clinical Spine Application (CSA) Responsible for developing library of common components, developed in both XSL and Java, to provide a unified consistent front end to the user. Technologies Used: Java, XML, XSLT, CSS, Struts, Spring framework, Apache Ant"
         [[params.experience.list.items]]
         details = "Ensuring all user interface elements conformed to the World Wide Web Consortium (W3C) guidelines on web content accessibility."
         [[params.experience.list.items]]
@@ -199,7 +199,7 @@ textPrimaryColor = "#292929"
         title = "Senior Java Developer"
         dates = "Oct 2001 – Mar 2004"
         company = "Britannia Building Society"
-        details = "Systems Integration Stream, Britannia Building Society. Responsible for the development and release management of the integration components developed in the systems integration stream. Technologies Used: Java, EJB, Servlets, XML, XSLT, HTML, MQ Series, JMS, Apache Ant and Oracle. "
+        details = "Consultant for Logica CMG on the Systems Integration Stream, Britannia Building Society. Responsible for the development and release management of the integration components developed in the systems integration stream. Technologies Used: Java, EJB, Servlets, XML, XSLT, HTML, MQ Series, JMS, Apache Ant and Oracle. "
         [[params.experience.list.items]]
         details = "Development of a XML/XSLT based thin browser client and Java servlet responsible for delegating requests to and processing responses from various distributed server components via MQ Series."
         [[params.experience.list.items]]
