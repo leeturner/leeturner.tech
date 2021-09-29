@@ -401,7 +401,7 @@ textPrimaryColor = "#292929"
         [[params.social.list]]
         icon = "fab fa-linkedin"
         url = "//linkedin.com/in/turnerlee/"
-        title = "LinkkedIn"
+        title = "LinkedIn"
         [[params.social.list]]
         icon = "fab fa-twitter-square"
         url = "//twitter.com/leeturner"
