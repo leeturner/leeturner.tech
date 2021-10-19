@@ -80,6 +80,11 @@ textPrimaryColor = "#292929"
         enable = true
         title = "Work Experience"
         [[params.experience.list]]
+        title = "Snyk Ambassador"
+        dates = "September 2021 – Present"
+        company = "Synk"
+        details = "The Snyk Ambassador Program is a volentary role supported by [Snyk](https://snyk.io) for professionals who are passionate about application security.  The idea is to lead by example, championing for improved application security by increasing AppSec awareness, being active in your respective communities, and celebrating wins.  We share our interest, expertise, and excitement within our communities to help other developers and engineers build secure software.  I was one of the first 8 people accepted onto the program.  You can find out more here - https://snyk.io/snyk-ambassadors/"
+        [[params.experience.list]]
         title = "Lead Backend Developer"
         dates = "May 2020 – Present"
         company = "Crunch"
