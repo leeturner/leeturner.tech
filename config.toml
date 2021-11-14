@@ -85,7 +85,7 @@ textPrimaryColor = "#292929"
         company = "Synk"
         details = "The Snyk Ambassador Program is a volentary role supported by [Snyk](https://snyk.io) for professionals who are passionate about application security.  The idea is to lead by example, championing for improved application security by increasing AppSec awareness, being active in your respective communities, and celebrating wins.  We share our interest, expertise, and excitement within our communities to help other developers and engineers build secure software.  I was one of the first 8 people accepted onto the program.  You can find out more here - https://snyk.io/snyk-ambassadors/"
         [[params.experience.list.items]]
-        details = "Part of the live hosting team for [Devoxx UK](https://www.devoxx.co.uk/) 2021 where diverse, local and global talent introduce the newest and most vital content from the development world."
+        details = "Part of the live hosting team for [Devoxx UK](https://www.devoxx.co.uk/) 2021 where diverse, local and global talent introduce the newest and most vital content from the development world. Responsible for welcoming speakers, managing the live chat and monitoring questions throughout the session.  After each session I hosted the live Q & A for the speakers."
 
         [[params.experience.list]]
         title = "Lead Backend Developer"
