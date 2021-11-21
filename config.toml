@@ -51,7 +51,7 @@ textPrimaryColor = "#292929"
         [[params.summary.paragraph]]
         text = "I am constantly learning and extending my skills and am able to become proficient in new languages quickly. I contribute to open-source projects and write and present about software development and software testing and I am comfortable working either as part of a bigger development team or as a solo developer."
         [[params.summary.paragraph]]
-        text = "I am the founder of the [Brighton Kotlin Meetup](https://brightonkotlin.com) - a group for Kotlin users, enthusiasts and learners from beginners to experts, and anyone wanting to get involved with the Kotlin/JVM ecosystem."
+        text = "I am the founder of the [Brighton Kotlin](https://brightonkotlin.com) and [Brighton JUG](https://www.meetup.com/brighton-jug/) meetup groups where we bring Kotlin and Java users, enthusiasts and learners from beginners to experts, and anyone wanting to get involved with the Kotlin/JVM ecosystem together to learn and support each other."
         [[params.summary.paragraph]]
         text = "My specialties are in Java & Kotlin microservice architectures using Spring Boot, test-driven development and agile software development."
 
