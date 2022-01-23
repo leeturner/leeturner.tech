@@ -55,7 +55,7 @@ enable = true
         [[params.summary.paragraph]]
         text = "I am constantly learning and extending my skills and am able to become proficient in new languages quickly. I contribute to open-source projects and write and present about software development and software testing and I am comfortable working either as part of a bigger development team or as a solo developer."
         [[params.summary.paragraph]]
-        text = "I am a [Snyk Ambassador](https://snyk.io/snyk-ambassadors) - a volentary role supported by [Snyk](https://snyk.io) for professionals who are passionate about application security, want to lead by example, champion for improved application security by increasing AppSec awareness and being active in our respective communities."
+        text = "I am a [Snyk Ambassador](https://snyk.io/snyk-ambassadors) - a voluntary role supported by [Snyk](https://snyk.io) for professionals who are passionate about application security, want to lead by example, champion for improved application security by increasing AppSec awareness and being active in our respective communities."
         [[params.summary.paragraph]]
         text = "I am the founder of the [Brighton Kotlin](https://brightonkotlin.com) and [Brighton JUG](https://www.brightonjug.com) meetup groups where we bring Kotlin and Java users, enthusiasts and learners from beginners to experts, and anyone wanting to get involved with the Kotlin/JVM ecosystem together to learn and support each other."
         [[params.summary.paragraph]]
@@ -96,7 +96,7 @@ enable = true
         title = "Snyk Ambassador"
         dates = "September 2021 – Present"
         company = "Synk"
-        details = "The Snyk Ambassador Program is a volentary role supported by [Snyk](https://snyk.io) for professionals who are passionate about application security.  The idea is to lead by example, championing for improved application security by increasing AppSec awareness, being active in your respective communities, and celebrating wins.  We share our interest, expertise, and excitement within our communities to help other developers and engineers build secure software.  I was one of the first 8 people accepted onto the program.  You can find out more here - https://snyk.io/snyk-ambassadors/"
+        details = "The Snyk Ambassador Program is a voluntary role supported by [Snyk](https://snyk.io) for professionals who are passionate about application security.  The idea is to lead by example, championing for improved application security by increasing AppSec awareness, being active in your respective communities, and celebrating wins.  We share our interest, expertise, and excitement within our communities to help other developers and engineers build secure software.  I was one of the first 8 people accepted onto the program.  You can find out more here - https://snyk.io/snyk-ambassadors/"
         [[params.experience.list.items]]
         details = "Part of the live hosting team for [Devoxx UK](https://www.devoxx.co.uk/) 2021 where diverse, local and global talent introduce the newest and most vital content from the development world. Responsible for welcoming speakers, managing the live chat and monitoring questions throughout the session.  After each session I hosted the live Q & A for the speakers."
 
