@@ -79,6 +79,13 @@ textPrimaryColor = "#292929"
     [params.experience]
         enable = true
         title = "Work Experience"
+
+        [[params.experience.list]]
+        title = "Brighton JUG Founder & Organiser"
+        dates = "Jan 2022 – Present"
+        company = "Brighton JUG"
+        details = "Brighton JUG is a group bringing together Java users, enthusiasts and learners. We’re interested in the whole world of Java – android development, server frameworks, interesting tools, applications, development methodologies and so on and so on – anything Java. Our meeting-ups will include talks, workshops and socials."
+
         [[params.experience.list]]
         title = "Snyk Ambassador"
         dates = "September 2021 – Present"
