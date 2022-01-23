@@ -120,6 +120,11 @@ enable = true
         [[params.experience.list.items]]
         details = "Championing application security (AppSec) with the developers at Crunch and being part of the initial responders team responsible for investigating and responding to issues raised through the Crunch responsible disclosure process"
 
+        [[params.experience.list]]
+        title = "Brighton Kotlin Founder & Organiser"
+        dates = "August 2019 – Present"
+        company = "Brighton Kotlin"
+        details = "This is a group is for Kotlin users, enthusiasts and learners from beginners to experts, and anyone wanting to get involved with the Kotlin/JVM ecosystem.  The aim of Brighton Kotlin is to build a community of people who get together to have regular meetups, presentations, talks, code labs and hackathons"
 
         [[params.experience.list]]
         title = "Senior Java Developer"
@@ -153,12 +158,6 @@ enable = true
         details = "Building, testing and deploying Spring Boot microservices to interface with external API from strategic partners such as Salesforce and receipt processing services."
         [[params.experience.list.items]]
         details = "Passionate about promoting best practice and new technologies with the wider engineering team by presenting tech talks on topics such as Mutation Testing and Fn Project"
-
-        [[params.experience.list]]
-        title = "Brighton Kotlin Founder & Organiser"
-        dates = "August 2019 – Present"
-        company = "Brighton Kotlin"
-        details = "This is a group is for Kotlin users, enthusiasts and learners from beginners to experts, and anyone wanting to get involved with the Kotlin/JVM ecosystem.  The aim of Brighton Kotlin is to build a community of people who get together to have regular meetups, presentations, talks, code labs and hackathons"
 
         [[params.experience.list]]
         title = "Founder"
