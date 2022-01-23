@@ -434,6 +434,10 @@ enable = true
         icon = "fas fa-rss-square"
         url = "//brightonkotlin.com/"
         title = "Brighton Kotlin"
+        [[params.social.list]]
+        icon = "fas fa-rss-square"
+        url = "//brightonjug.com/"
+        title = "Brighton JUG"
 
 
 
