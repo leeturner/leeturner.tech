@@ -21,7 +21,7 @@ textPrimaryColor = "#292929"
     [params.profile]
         enable = true
         name = "Lee Turner"
-        tagline = "Lead Backend Developer at Crunch"
+        tagline = "Senior Software Engineer at Crown Agents Bank"
         avatar = "assets/images/lee_avatar.jpg"
 
 
@@ -51,7 +51,7 @@ textPrimaryColor = "#292929"
 [params.summary]
 enable = true
         [[params.summary.paragraph]]
-        text = "I am an experienced software engineer with over 20 years experience working on large scale software implementations and have a passion for well crafted, pragmatically tested software. I am currently working at [Crunch](https://medium.com/@crunchtech) as their Lead Backend Developer and have significant experience in Java, Kotlin and Spring Boot along with test-driven development and stringent source and release management processes. I am also experienced with agile practices such as scrum, pair programming and continuous integration."
+        text = "I am an experienced software engineer with over 20 years experience working on large scale software implementations and have a passion for well crafted, pragmatically tested software. I am currently working at Crown Agents Bank as a Senior Software Engineer and have significant experience in Java, Kotlin and Spring Boot along with test-driven development and stringent source and release management processes. I am also experienced with agile practices such as scrum, pair programming and continuous integration."
         [[params.summary.paragraph]]
         text = "I am constantly learning and extending my skills and am able to become proficient in new languages quickly. I contribute to open-source projects and write and present about software development and software testing and I am comfortable working either as part of a bigger development team or as a solo developer."
         [[params.summary.paragraph]]
@@ -87,6 +87,11 @@ enable = true
         title = "Work Experience"
 
         [[params.experience.list]]
+        title = "Senior Software Engineer"
+        dates = "June 2022 – Present"
+        company = "Crown Agents Bank"
+
+        [[params.experience.list]]
         title = "Brighton JUG Founder & Organiser"
         dates = "Jan 2022 – Present"
         company = "Brighton JUG"
@@ -102,7 +107,7 @@ enable = true
 
         [[params.experience.list]]
         title = "Lead Backend Developer"
-        dates = "May 2020 – Present"
+        dates = "May 2020 – June 2022"
         company = "Crunch"
         details = "As Lead backend Developer I am the leader, convenor, and organiser of the backend function. I provide a single point of contact with the Head of Solutions Architecture and Principal Technical Architect, Head of Engineering, and Lead Front End Developer. I am responsible for playing a key role in setting direction and to then embed within the backend function, ensuring all backend developers can work productively and happily. Part of my role as Lead Backend Developer is to provide a Developer Advocacy role, being a conduit between Crunch Engineering and the world of external software developers and in the process raise Crunch brand awareness."
         [[params.experience.list.items]]
