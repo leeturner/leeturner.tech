@@ -266,6 +266,14 @@ enable = true
         enable = true
         title = "Courses & Training"
         [[params.trainings.list]]
+        title = "Implementing Event-Driven Systems using DDD, CQRS and Event Sourcing"
+        meta = "AxonIQ, 2022"
+        tagline = "DDD, CQRS, and Event Sourcing theory, explaining the basic concepts for implementing a service using Axon. It also demonstrates how to apply the non-functional requirements."
+        [[params.trainings.list]]
+        title = "Introduction to DDD, CQRS and Event Sourcing"
+        meta = "AxonIQ, 2022"
+        tagline = "This course covers the essential building blocks of  Domain-Driven Design, Command-Query Responsibility Separation  and Event Sourcing concepts. "
+        [[params.trainings.list]]
         title = "Kotlin For Java Developers"
         meta = "Udemy, 2019"
         tagline = "Up skilling in Kotlin to enable the introduction of Kotlin as an option for Crunch backend developers"
