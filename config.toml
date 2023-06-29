@@ -21,7 +21,7 @@ textPrimaryColor = "#292929"
         enable = true
         name = "Lee Turner"
         tagline = "Senior Software Engineer at Crown Agents Bank"
-        avatar = "assets/images/lee_avatar.jpg"
+        avatar = "/assets/images/lee_avatar.jpg"
 
 
 
