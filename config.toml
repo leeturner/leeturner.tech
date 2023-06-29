@@ -2,11 +2,10 @@
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 # Page settings
-baseURL = "/"
+baseURL = "https://leeturner.tech"
 languageCode = "en"
 title = "CV | Lee Turner"
 theme = "hugo-devresume-theme-v2"
-googleAnalytics = "UA-115883229-2"
 
 [params]
 author = "Lee Turner"
