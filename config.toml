@@ -9,7 +9,7 @@ theme = "hugo-devresume-theme-v2"
 
 [params]
 author = "Lee Turner"
-description = "Welcome to the CV of Lee Turner - Lead Backend Developer at Crunch. Hacker of code, builder of distributed systems with Spring, Java, Kotlin and Go. Runs Brighton Kotlin. (he/him)"
+description = "Welcome to the CV of Lee Turner - Senior Software Engineer at Crown Agents Bank. Hacker of code, builder of distributed systems with Spring, Java, Kotlin and Go. Runs Brighton Kotlin and Brighton JUG (he/him)"
 custom_css = "/assets/css/custom.css"
 
 primaryColor = "#1da1f2"
@@ -58,7 +58,7 @@ enable = true
         [[params.summary.paragraph]]
         text = "I am the founder of the [Brighton Kotlin](https://brightonkotlin.com) and [Brighton JUG](https://www.brightonjug.com) meetup groups where we bring Kotlin and Java users, enthusiasts and learners from beginners to experts, and anyone wanting to get involved with the Kotlin/JVM ecosystem together to learn and support each other."
         [[params.summary.paragraph]]
-        text = "My specialties are in Java & Kotlin microservice architectures using Spring Boot, test-driven development and agile software development."
+        text = "My specialties are in Java & Kotlin microservice architectures, test-driven development and agile software development."
 
 
 
@@ -66,6 +66,8 @@ enable = true
         enable = true
         title = "Key Achievements"
         details = ""
+        [[params.achievements.list]]
+        details = "**Responsible for the design and implementation of the insufficient funds process** for Swift payments at Crown Agents Bank."
         [[params.achievements.list]]
         details = "**Technical & implementation lead on Crunch's single sign on project** bringing authentication and user management of all Crunch products into a single portal and implementation. This project paved the way for Crunch's long term plans to systematically rebuild their core accountancy application."
         [[params.achievements.list]]
@@ -89,6 +91,27 @@ enable = true
         title = "Senior Software Engineer"
         dates = "June 2022 – Present"
         company = "Crown Agents Bank"
+        details = "Senior Software Engineer in the Payments Domain, working on the team responsible for rearchitecting the Swift payments flow to integrate with the core banking system providing a more stable and scalable payments flow."
+        [[params.experience.list.items]]
+        details = "Responsible for implementing BIC code validation across our API."
+        [[params.experience.list.items]]
+        details = "Responsible for the design and implementation of the insufficient funds process for Swift payments, spanning the Payment Gateway and core banking system"
+        [[params.experience.list.items]]
+        details = "Responsible for the infrastructure for the the new Swift payments flow - using Terraform and Ansible for all infrastructure orchestration."
+        [[params.experience.list.items]]
+        details = "Built a POC to mock the core banking system integration APIs using Wiremock. This greatly improved the teams ability to test the new swift flow locally."
+        [[params.experience.list.items]]
+        details = "Implementation of developer tooling to capture and verify API callbacks when developing locally.  This side project was built using Micronaut"
+        [[params.experience.list.items]]
+        details = "Implementation of a testing framework to simulate a stream of configurable events to the callback API"
+        [[params.experience.list.items]]
+        details = "Responsible for the design and implementation of the Swift flow callback endpoint security"
+        [[params.experience.list.items]]
+        details = "Mentoring and pairing with junior and senior members of the team to help spread knowledge and support team members where possible"
+        [[params.experience.list.items]]
+        details = "Established the Security Guild within the Payments Domain and introduced dependency scanning into the software development lifecycle"
+        [[params.experience.list.items]]
+        details = "Responsible for Engineering the Engineering Experience within the Payments Domain - shaping the engineering habitat, increasing developer joy and productivity"
 
         [[params.experience.list]]
         title = "Brighton JUG Founder & Organiser"
@@ -363,6 +386,9 @@ enable = true
         details = "Test-driven development"
         [[params.skills.list.items]]
         details = "Database (MySQL, Postgress)"
+        [[params.skills.list.items]]
+        details = "Axon Framework - CQRS/Event Sourcing"
+        [[params.skills.list.items]]
         [[params.skills.list.items]]
         details = "Docker, k8s"
         [[params.skills.list.items]]
