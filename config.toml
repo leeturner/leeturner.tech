@@ -9,7 +9,7 @@ theme = "hugo-devresume-theme-v2"
 
 [params]
 author = "Lee Turner"
-description = "Welcome to the CV of Lee Turner - Senior Software Engineer at Crown Agents Bank. Hacker of code, builder of distributed systems with Spring, Java, Kotlin and Go. Runs Brighton Kotlin and Brighton JUG (he/him)"
+description = "Welcome to the CV of Lee Turner - Senior Software Engineer at WireMock. Hacker of code, builder of distributed systems, Java, Kotlin and Go. Runs Brighton Kotlin and Brighton JUG (he/him)"
 custom_css = "/assets/css/custom.css"
 
 primaryColor = "#1da1f2"
@@ -20,7 +20,7 @@ textPrimaryColor = "#292929"
     [params.profile]
         enable = true
         name = "Lee Turner"
-        tagline = "Senior Software Engineer at Crown Agents Bank"
+        tagline = "Senior Software Engineer at Wiremock"
         avatar = "/assets/images/lee_avatar.jpg"
 
 
@@ -50,7 +50,7 @@ textPrimaryColor = "#292929"
 [params.summary]
 enable = true
         [[params.summary.paragraph]]
-        text = "I am an experienced software engineer with over 20 years experience working on large scale software implementations and have a passion for well crafted, pragmatically tested software. I am currently working at Crown Agents Bank as a Senior Software Engineer and have significant experience in Java, Kotlin and Spring Boot along with test-driven development and stringent source and release management processes. I am also experienced with agile practices such as scrum, pair programming and continuous integration."
+        text = "I am an experienced software engineer with over 20 years experience working on large scale software implementations and have a passion for well crafted, pragmatically tested software. I am currently working at WireMock as a Senior Software Engineer and have significant experience in Java, Kotlin and Spring Boot along with test-driven development and stringent source and release management processes. I am also experienced with agile practices such as scrum, pair programming and continuous integration."
         [[params.summary.paragraph]]
         text = "I am constantly learning and extending my skills and am able to become proficient in new languages quickly. I contribute to open-source projects and write and present about software development and software testing and I am comfortable working either as part of a bigger development team or as a solo developer."
         [[params.summary.paragraph]]
@@ -89,7 +89,13 @@ enable = true
 
         [[params.experience.list]]
         title = "Senior Software Engineer"
-        dates = "June 2022 – Present"
+        dates = "Nov 2023 – Present"
+        company = "WireMock"
+        details = "Senior Software Engineer in the WireMock engineering team, working on the WireMock Cloud SaaS product and Wiremock open source core commiter."
+
+        [[params.experience.list]]
+        title = "Senior Software Engineer"
+        dates = "June 2022 – Nov 2023"
         company = "Crown Agents Bank"
         details = "Senior Software Engineer in the Payments Domain, working on the team responsible for rearchitecting the Swift payments flow to integrate with the core banking system providing a more stable and scalable payments flow."
         [[params.experience.list.items]]
