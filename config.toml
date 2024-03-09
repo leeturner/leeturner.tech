@@ -91,7 +91,7 @@ enable = true
         title = "Senior Software Engineer"
         dates = "Nov 2023 – Present"
         company = "WireMock"
-        details = "Senior Software Engineer in the WireMock engineering team, working on the WireMock Cloud SaaS product and Wiremock open source core commiter."
+        details = "Senior Software Engineer in the WireMock engineering team, working on the WireMock Cloud SaaS product and Wiremock open source core committer."
 
         [[params.experience.list]]
         title = "Senior Software Engineer"
