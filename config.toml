@@ -40,15 +40,11 @@ textPrimaryColor = "#292929"
         icon = "fas fa-globe"
         url = "https://brightonkotlin.com"
         text = "https://brightonkotlin.com"
-        [[params.contact.list]]
-        icon = "fas fa-globe"
-        url = "https://brightonjug.com"
-        text = "https://brightonjug.com"
 
 
 
-[params.summary]
-enable = true
+    [params.summary]
+        enable = true
         [[params.summary.paragraph]]
         text = "I am an experienced software engineer with over 20 years experience working on large scale software implementations and have a passion for well crafted, pragmatically tested software. I am currently working at WireMock as a Senior Software Engineer and have significant experience in Java, Kotlin and Spring Boot along with test-driven development and stringent source and release management processes. I am also experienced with agile practices such as scrum, pair programming and continuous integration."
         [[params.summary.paragraph]]
@@ -478,11 +474,6 @@ enable = true
         icon = "fas fa-rss-square"
         url = "//brightonkotlin.com/"
         title = "Brighton Kotlin"
-        [[params.social.list]]
-        icon = "fas fa-rss-square"
-        url = "//brightonjug.com/"
-        title = "Brighton JUG"
-
 
 
     [params.footer]
