@@ -316,6 +316,11 @@ textPrimaryColor = "#292929"
         enable = true
         title = "Projects"
         [[params.projects.list]]
+        title = "[Xport](https://github.com/leeturner/xport/)"
+        meta = "Open Source, CLI, Kotlin, Micronaut"
+        tagline = "Xport is a command-line tool built with Kotlin and Micronaut that processes Twitter data exports, converting them from JavaScript format to standard JSON and then to Hugo-compatible Markdown.  This allows the tweets to then be used in a [Hugo](https://gohugo.io/) compatible microblog like [this one](https://leeturner.me/microblog/)"
+
+        [[params.projects.list]]
         title = "[Hugo Progression Framework](https://leeturner.me/posts/hugo-progression-framework/)"
         meta = "Open Source, Hugo, template"
         tagline = "**Hugo Progression** is a [Hugo](https://gohugo.io/) template that can render progression frameworks using the same data format as the [Monzo progression framework](https://github.com/monzo/progression-framework). A progression framework (or *competency matrix*, *career ladder*, *career pathway*) is a tool to help people within an organisation understand where they currently are and how to progress and grow in their work. It also helps an organisation map people’s competencies (their skills and knowledge) to compensation (how they’re rewarded for them financially) - find out more information in [this blog post](https://leeturner.me/posts/hugo-progression-framework/) or on [GitHub](https://github.com/leeturner/hugo-progression)"
