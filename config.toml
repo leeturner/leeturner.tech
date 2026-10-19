@@ -316,9 +316,49 @@ textPrimaryColor = "#292929"
         enable = true
         title = "Projects"
         [[params.projects.list]]
+        title = "[Micronaut Launch TUI](https://github.com/leeturner/micronaut-launch-tui/)"
+        meta = "Open Source, TUI, Kotlin, Micronaut"
+        tagline = "mtui is a terminal UI for creating [Micronaut](https://micronaut.io) projects through [Micronaut Launch](https://launch.micronaut.io), written in [Kotlin](https://kotlinlang.org) and built with [TamboUI](https://tamboui.dev).  It puts the hundreds of available Micronaut features in one searchable list, lets you preview the generated files and unzips the project straight into the current directory without ever leaving the terminal"
+
+        [[params.projects.list]]
+        title = "[wiremock-micronaut](https://github.com/leeturner/wiremock-micronaut/)"
+        meta = "Open Source, Library, Kotlin, Micronaut, WireMock"
+        tagline = "wiremock-micronaut simplifies testing HTTP clients in [Micronaut](https://micronaut.io) 5 and above.  It starts [WireMock](https://wiremock.org) servers per test class, binds their URLs into Micronaut configuration before your beans are created and injects them into your tests.  The annotations mirror [wiremock-spring-boot](https://github.com/wiremock/wiremock-spring-boot) and it is available on [Maven Central](https://central.sonatype.com/artifact/io.github.leeturner/wiremock-micronaut)"
+
+        [[params.projects.list]]
+        title = "[wiremock-blns-extension](https://github.com/leeturner/wiremock-blns-extension/)"
+        meta = "Open Source, Library, WireMock"
+        tagline = "wiremock-blns-extension is a [WireMock](https://wiremock.org) extension that adds a `naughtyString` Handlebars helper, so templated responses can return strings from the [Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings) - SQL injection, RTL text, zero-width characters, emoji, Zalgo text and more.  It works with both embedded WireMock and the standalone JAR / Docker image and is available on [Maven Central](https://central.sonatype.com/artifact/io.github.leeturner/wiremock-blns-extension)"
+
+        [[params.projects.list]]
         title = "[Xport](https://github.com/leeturner/xport/)"
         meta = "Open Source, CLI, Kotlin, Micronaut"
         tagline = "Xport is a command-line tool built with Kotlin and Micronaut that processes Twitter data exports, converting them from JavaScript format to standard JSON and then to Hugo-compatible Markdown.  This allows the tweets to then be used in a [Hugo](https://gohugo.io/) compatible microblog like [this one](https://leeturner.me/microblog/)"
+
+        [[params.projects.list]]
+        title = "[Conway's Game of Life](https://github.com/leeturner/conways-game-of-life-kotlin/)"
+        meta = "Open Source, Kotlin, Micronaut, Arrow"
+        tagline = "A terminal based implementation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) written in [Kotlin](https://kotlinlang.org) using [Micronaut](https://micronaut.io) and functional programming with [Arrow](https://arrow-kt.io).  The universe wraps around like a torus and can be rendered in the terminal with ANSI colours or in a [KorGE](https://korge.org/) 2D window"
+
+        [[params.projects.list]]
+        title = "[Spektrum](https://github.com/leeturner/spektrum/)"
+        meta = "Open Source, Emulator, Kotlin, Micronaut"
+        tagline = "Spektrum is a work in progress Sinclair ZX Spectrum emulator written in [Kotlin](https://kotlinlang.org) and [Micronaut](https://micronaut.io), starting with an emulation of the Z80 CPU"
+
+        [[params.projects.list]]
+        title = "[Micronaut CLI Template](https://github.com/leeturner/micronaut-cli-template/)"
+        meta = "Open Source, Template, Kotlin, Micronaut"
+        tagline = "A ready to go [Kotlin](https://kotlinlang.org) [Micronaut](https://micronaut.io) command line application template with all the tooling I like already set up - a Gradle version catalogue, Kotlinter and Detekt for linting, [Arrow](https://arrow-kt.io) for functional programming, [Strikt](https://strikt.io) for assertions and GitHub Actions and Dependabot for CI"
+
+        [[params.projects.list]]
+        title = "[callback-logger](https://github.com/leeturner/callback-logger/)"
+        meta = "Open Source, Kotlin, Micronaut"
+        tagline = "callback-logger is a simple [Kotlin](https://kotlinlang.org) and [Micronaut](https://micronaut.io) service to receive callbacks, which is useful when testing APIs locally that send them.  It logs every `POST` or `PUT` it receives with a simple web UI to see what has arrived, and supports custom callback endpoints with configurable response codes and payloads"
+
+        [[params.projects.list]]
+        title = "[image-term](https://github.com/leeturner/image-term/)"
+        meta = "Open Source, CLI, V"
+        tagline = "image-term is a terminal based image viewer written in [V](https://vlang.io/) that renders images as colourful ASCII mosaics.  It scales the image to fit your terminal, corrects for the aspect ratio of terminal characters and averages the colours within each block of pixels"
 
         [[params.projects.list]]
         title = "[Hugo Progression Framework](https://leeturner.me/posts/hugo-progression-framework/)"
@@ -326,14 +366,14 @@ textPrimaryColor = "#292929"
         tagline = "**Hugo Progression** is a [Hugo](https://gohugo.io/) template that can render progression frameworks using the same data format as the [Monzo progression framework](https://github.com/monzo/progression-framework). A progression framework (or *competency matrix*, *career ladder*, *career pathway*) is a tool to help people within an organisation understand where they currently are and how to progress and grow in their work. It also helps an organisation map people’s competencies (their skills and knowledge) to compensation (how they’re rewarded for them financially) - find out more information in [this blog post](https://leeturner.me/posts/hugo-progression-framework/) or on [GitHub](https://github.com/leeturner/hugo-progression)"
 
         [[params.projects.list]]
-        title = "[pinboard2markdown](https://leeturner.me/posts/pinboard2markdown/)"
-        meta = "Open Source, Kotlin, Spring Boot"
-        tagline = "pinboard2markdown is a command line tool written in [Kotlin](https://kotlinlang.org) and [Spring Boot](https://start.spring.io) that communicates with the [pinboard.in api](https://pinboard.in/api/) to retrieve a selection of bookmarks that are tagged with a specified tag.  It then converts those bookmarks to markdown and outputs them to the terminal. I use this tool to build regular newsletters for the backend developers at [Crunch](https://medium.com/@crunchtech) and to generate my [Geek Reads](https://leeturner.me/tags/bookmarks/) posts "
-
-        [[params.projects.list]]
         title = "[BlinkyTapeTestWatcher](https://leeturner.me/posts/BlinkyTapeTestWatcher/)"
         meta = "Open Source, Kotlin, JUnit"
         tagline = "BlinkyTapeTestWatcher is a fun little [Kotlin](https://kotlinlang.org) based implementation of the [Junit 5](https://junit.org/junit5/) [TestWatcher API](https://junit.org/junit5/docs/5.5.1/api/org/junit/jupiter/api/extension/TestWatcher.html) that hooks up your tests to a BlinkyTape LED strip - find out more information in this [blog post](https://leeturner.me/posts/blinkytape-junit-testwatcher/) which also contains a video of it in action"
+
+        [[params.projects.list]]
+        title = "[pinboard2markdown](https://leeturner.me/posts/pinboard2markdown/)"
+        meta = "Open Source, Kotlin, Spring Boot"
+        tagline = "pinboard2markdown is a command line tool written in [Kotlin](https://kotlinlang.org) and [Spring Boot](https://start.spring.io) that communicates with the [pinboard.in api](https://pinboard.in/api/) to retrieve a selection of bookmarks that are tagged with a specified tag.  It then converts those bookmarks to markdown and outputs them to the terminal. I use this tool to build regular newsletters for the backend developers at [Crunch](https://medium.com/@crunchtech) and to generate my [Geek Reads](https://leeturner.me/tags/bookmarks/) posts "
 
 
 
