@@ -52,7 +52,7 @@ textPrimaryColor = "#292929"
         [[params.summary.paragraph]]
         text = "I am a [Snyk Ambassador](https://snyk.io/snyk-ambassadors) - a voluntary role supported by [Snyk](https://snyk.io) for professionals who are passionate about application security, want to lead by example, champion for improved application security by increasing AppSec awareness and being active in our respective communities."
         [[params.summary.paragraph]]
-        text = "I am the founder of the [Brighton Kotlin](https://brightonkotlin.com) and [Brighton JUG](https://www.brightonjug.com) meetup groups where we bring Kotlin and Java users, enthusiasts and learners from beginners to experts, and anyone wanting to get involved with the Kotlin/JVM ecosystem together to learn and support each other."
+        text = "I am the founder of the [Brighton Kotlin](https://brightonkotlin.com) and Brighton JUG meetup groups where we bring Kotlin and Java users, enthusiasts and learners from beginners to experts, and anyone wanting to get involved with the Kotlin/JVM ecosystem together to learn and support each other."
         [[params.summary.paragraph]]
         text = "My specialties are in Java & Kotlin microservice architectures, test-driven development and agile software development."
 
