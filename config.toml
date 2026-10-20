@@ -89,7 +89,7 @@ textPrimaryColor = "#292929"
         company = "WireMock"
         details = "Senior Software Engineer in the WireMock engineering team, working on the WireMock Cloud SaaS product and WireMock open source core committer."
         [[params.experience.list.items]]
-        details = "Built the WireMock Cloud AI agent, a custom agent built into the app."
+        details = "Built the WireMock Cloud AI agent, an in-app assistant that helps users create, update and debug their mock APIs, generating mocks from natural-language prompts, OpenAPI specs and example traffic."
         [[params.experience.list.items]]
         details = "Built shared AI skills used across the WireMock engineering team."
         [[params.experience.list.items]]
