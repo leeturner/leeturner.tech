@@ -254,7 +254,7 @@ textPrimaryColor = "#292929"
         [[params.experience.list.items]]
         details = "Involved in a move to Agile development practices for the whole development team – leading daily scrum stand ups."
         [[params.experience.list.items]]
-        details = "Visiting client sites to consult on environment setup and configuration. Once the performance testing was complete I was responsible."
+        details = "Visiting client sites to consult on environment setup and configuration."
 
         [[params.experience.list]]
         title = "Senior Java Developer"
