@@ -436,7 +436,7 @@
     [[skills.list.items]]
     details = "WireMock"
     [[skills.list.items]]
-    details = "Database (MySQL, Postgress)"
+    details = "Database (MySQL, Postgres)"
     [[skills.list.items]]
     details = "Axon Framework - CQRS/Event Sourcing"
     [[skills.list.items]]
