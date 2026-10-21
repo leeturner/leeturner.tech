@@ -11,10 +11,6 @@
     enable = true
     location = "Brighton, UK"
     [[contact.list]]
-    icon = "email"
-    url = "mailto:lee@leeturner.me"
-    text = "lee@leeturner.me"
-    [[contact.list]]
     icon = "globe"
     url = "https://leeturner.me"
     text = "https://leeturner.me"
