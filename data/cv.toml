@@ -424,6 +424,8 @@
     [[skills.list.items]]
     details = "Spring Boot"
     [[skills.list.items]]
+    details = "Micronaut"
+    [[skills.list.items]]
     details = "Ktor"
     [[skills.list.items]]
     details = "Dropwizard"
@@ -431,6 +433,8 @@
     details = "Golang/Python"
     [[skills.list.items]]
     details = "Test-driven development"
+    [[skills.list.items]]
+    details = "WireMock"
     [[skills.list.items]]
     details = "Database (MySQL, Postgress)"
     [[skills.list.items]]
