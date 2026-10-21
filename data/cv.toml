@@ -424,6 +424,10 @@
     [[skills.list.items]]
     details = "Spring Boot"
     [[skills.list.items]]
+    details = "Ktor"
+    [[skills.list.items]]
+    details = "Dropwizard"
+    [[skills.list.items]]
     details = "Golang/Python"
     [[skills.list.items]]
     details = "Test-driven development"
