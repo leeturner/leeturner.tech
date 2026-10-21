@@ -500,9 +500,13 @@
     url = "//linkedin.com/in/turnerlee/"
     title = "LinkedIn"
     [[social.list]]
-    icon = "twitter"
-    url = "//twitter.com/leeturner"
-    title = "@leeturner"
+    icon = "mastodon"
+    url = "https://hachyderm.io/@leeturner"
+    title = "Mastodon"
+    [[social.list]]
+    icon = "bluesky"
+    url = "https://bsky.app/profile/leeturner.bsky.social"
+    title = "Bluesky"
     [[social.list]]
     icon = "rss"
     url = "//leeturner.me/"
