@@ -1,0 +1,18 @@
+{{- with .trainings }}{{ if .enable }}
+<section class="cv-section" aria-labelledby="training">
+  {{- partial "section-head.html" (dict "title" (.title | default "Courses & Training") "id" "training") }}
+  <div class="section-body">
+    <ul class="entries">
+      {{- range .list }}
+      <li>
+        <div class="entry-head">
+          <h3>{{ .title | markdownify }}</h3>
+          {{- with .meta }}<span class="meta">{{ . }}</span>{{ end }}
+        </div>
+        {{- with .tagline }}<p>{{ . | markdownify }}</p>{{ end }}
+      </li>
+      {{- end }}
+    </ul>
+  </div>
+</section>
+{{- end }}{{ end }}

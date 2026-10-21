@@ -1,0 +1,28 @@
+<section class="hero">
+  <div class="wrap hero-inner">
+    <div class="hero-text">
+      <p class="eyebrow">Curriculum vitae{{ with .contact.location }} · {{ . }}{{ end }}</p>
+      {{- with .profile }}
+      <h1>{{ .name }}<span>.</span></h1>
+      {{- with .tagline }}<p class="tagline">{{ . | markdownify }}</p>{{ end }}
+      {{- end }}
+      {{- with .contact }}{{ if .enable }}
+      <ul class="contact-list">
+        {{- range .list }}
+        <li><a href="{{ .url }}">{{ partial "icon.html" .icon }}<span>{{ .text | replaceRE `^https?://` "" }}</span></a></li>
+        {{- end }}
+      </ul>
+      {{- end }}{{ end }}
+      {{- with .social }}{{ if .enable }}
+      <ul class="social-chips">
+        {{- range .list }}
+        <li><a href="{{ .url }}" rel="me noopener">{{ partial "icon.html" .icon }}<span>{{ .title }}</span></a></li>
+        {{- end }}
+      </ul>
+      {{- end }}{{ end }}
+    </div>
+    {{- with .profile.avatar }}
+    <img class="avatar" src="{{ . | relURL }}" alt="" width="220" height="220">
+    {{- end }}
+  </div>
+</section>

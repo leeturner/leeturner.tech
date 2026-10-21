@@ -1,0 +1,13 @@
+{{- $cv := partial "cv.html" . }}
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; {{ now.Year }} {{ with $cv.footer.copyright }}{{ . | markdownify }}{{ else }}{{ site.Params.author }}{{ end }}</span>
+    {{- with $cv.social }}{{ if .enable }}
+    <nav class="social-links" aria-label="Elsewhere">
+      {{- range .list }}
+      <a href="{{ .url }}" rel="me noopener">{{ .title }}</a>
+      {{- end }}
+    </nav>
+    {{- end }}{{ end }}
+  </div>
+</footer>

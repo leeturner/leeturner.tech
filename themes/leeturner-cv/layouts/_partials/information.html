@@ -1,0 +1,16 @@
+{{- with .information }}{{ if .enable }}
+<section class="cv-section" aria-labelledby="information">
+  {{- partial "section-head.html" (dict "title" (.title | default "Information") "id" "information") }}
+  <div class="section-body">
+    {{- range .list }}
+    <div class="info-group">
+      {{- with .title }}<h3>{{ . }}</h3>{{ end }}
+      {{- with .details }}<p>{{ . | markdownify }}</p>{{ end }}
+      {{- with .items }}
+      <ul>{{ range . }}<li>{{ .details | markdownify }}</li>{{ end }}</ul>
+      {{- end }}
+    </div>
+    {{- end }}
+  </div>
+</section>
+{{- end }}{{ end }}

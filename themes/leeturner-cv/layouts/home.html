@@ -1,0 +1,14 @@
+{{- define "main" }}
+{{- $cv := partial "cv.html" . }}
+{{- partial "hero.html" $cv }}
+<div class="wrap sections">
+  {{- partial "summary.html" $cv }}
+  {{- partial "achievements.html" $cv }}
+  {{- partial "experience.html" $cv }}
+  {{- partial "projects.html" $cv }}
+  {{- partial "trainings.html" $cv }}
+  {{- partial "skills.html" $cv }}
+  {{- partial "information.html" $cv }}
+  {{- partial "more.html" $cv }}
+</div>
+{{- end }}

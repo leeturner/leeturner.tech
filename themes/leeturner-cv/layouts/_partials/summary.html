@@ -1,0 +1,10 @@
+{{- with .summary }}{{ if .enable }}
+<section class="cv-section" aria-labelledby="profile">
+  {{- partial "section-head.html" (dict "title" (.title | default "Profile") "id" "profile") }}
+  <div class="section-body summary">
+    {{- range .paragraph }}
+    <p>{{ .text | markdownify }}</p>
+    {{- end }}
+  </div>
+</section>
+{{- end }}{{ end }}

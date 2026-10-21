@@ -1,0 +1,47 @@
+{{- /* Education, awards, languages and interests share one compact row. */ -}}
+{{- $show := or .education.enable .awards.enable .languages.enable .interests.enable }}
+{{- if $show }}
+<section class="cv-section" aria-labelledby="more">
+  {{- partial "section-head.html" (dict "title" "And also" "id" "more") }}
+  <div class="section-body more-grid">
+    {{- with .education }}{{ if .enable }}
+    <div class="panel">
+      <h3>{{ .title | default "Education" }}</h3>
+      <ul class="plain">
+        {{- range .list }}
+        <li><strong>{{ .degree | markdownify }}</strong><span class="muted">{{ .university | markdownify }}{{ with .dates }} · {{ . }}{{ end }}</span></li>
+        {{- end }}
+      </ul>
+    </div>
+    {{- end }}{{ end }}
+    {{- with .awards }}{{ if .enable }}
+    <div class="panel">
+      <h3>{{ .title | default "Awards" }}</h3>
+      <ul class="plain">
+        {{- range .list }}{{ if .name }}
+        <li><strong>{{ .name | markdownify }}</strong><span class="muted">{{ .body | markdownify }}{{ with .date }} · {{ . }}{{ end }}</span></li>
+        {{- end }}{{ end }}
+      </ul>
+    </div>
+    {{- end }}{{ end }}
+    {{- with .languages }}{{ if .enable }}
+    <div class="panel">
+      <h3>{{ .title | default "Languages" }}</h3>
+      <ul class="plain">
+        {{- range .list }}
+        <li><strong>{{ .name }}</strong>{{ with .level }}<span class="muted">{{ . }}</span>{{ end }}</li>
+        {{- end }}
+      </ul>
+    </div>
+    {{- end }}{{ end }}
+    {{- with .interests }}{{ if .enable }}
+    <div class="panel">
+      <h3>{{ .title | default "Interests" }}</h3>
+      <ul class="tags">
+        {{- range .list }}<li>{{ .name }}</li>{{ end }}
+      </ul>
+    </div>
+    {{- end }}{{ end }}
+  </div>
+</section>
+{{- end }}
