@@ -434,6 +434,10 @@
     [[skills.list.items]]
     details = "Docker, k8s"
     [[skills.list.items]]
+    details = "AWS"
+    [[skills.list.items]]
+    details = "Terraform"
+    [[skills.list.items]]
     details = "CI/CD"
     [[skills.list.items]]
     details = "Agile development practices with extreme programming and scrum"
