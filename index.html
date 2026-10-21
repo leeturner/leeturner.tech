@@ -1,889 +1,456 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
-
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CV | Lee Turner</title>
+<meta name="description" content="Welcome to the CV of Lee Turner - Senior Software Engineer at WireMock. Hacker of code, builder of distributed systems, Java, Kotlin and Go. Runs Brighton …">
+<meta name="author" content="Lee Turner">
+<link rel="canonical" href="https://leeturner.tech/">
+<meta property="og:site_name" content="CV | Lee Turner">
+<meta property="og:title" content="CV | Lee Turner">
+<meta property="og:description" content="Welcome to the CV of Lee Turner - Senior Software Engineer at WireMock. Hacker of code, builder of distributed systems, Java, Kotlin and Go. Runs Brighton …">
+<meta property="og:url" content="https://leeturner.tech/">
+<meta property="og:type" content="profile">
+<meta property="og:image" content="https://leeturner.tech/assets/images/lee_avatar.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131211" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/favicon.ico" sizes="any">
 
-    
-    <title>CV | Lee Turner</title>
+<script>
+  (function () {
+    var saved = null;
+    try { saved = localStorage.getItem('theme'); } catch (e) {}
+    var dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+  })();
+</script>
 
-    
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to the CV of Lee Turner - Senior Software Engineer at WireMock. Hacker of code, builder of distributed systems, Java, Kotlin and Go. Runs Brighton Kotlin and Brighton JUG (he/him)">
-    <meta name="author" content="Lee Turner">
-
-    <link rel="shortcut icon" href="favicon.ico">
-
-    
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900">
-    
-    
-    <link rel="stylesheet" href="https://leeturner.tech/assets/css/devresume.min.1def0b14d79cfacf9b588f16a8ee877bb027b0124ddb10c0e0d007fc95a542d7.css">
-
-    
-    
-    <link rel="stylesheet" href="/assets/css/custom.css">
-    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="/css/main.min.3979f964aaa125d90a12b3c16fd4ce113fa011401b0d2f75d50541e2c0ccf4c8.css" integrity="sha256-OXn5ZKqhJdkKErPBb9TOET&#43;gEUAbDS911QVB4sDM9Mg=">
 
 	<meta name="generator" content="Hugo 0.168.0">
 </head>
-
 <body>
-
-    <div class="main-wrapper">
-
-        <div class="container px-3 px-lg-5">
-
-            <article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
-
-                
-                <div class="resume-header">
-
-                    <div class="row align-items-center">
-
-                        
-                        
-                        <div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
-                            <h2 class="resume-name mb-0 text-uppercase">Lee Turner</h2>
-                            <div class="resume-tagline mb-3 mb-md-0">Senior Software Engineer at Wiremock</div>
-                        </div>
-
-                        
-
-                        
-                        
-                        <div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
-                            <ul class="list-unstyled mb-0">
-                                
-                                <li class="mb-2"><i class="fas fa-envelope-square fa-fw fa-lg mr-2"></i><a class="resume-link" href="mailto:lee@leeturner.me">lee@leeturner.me</a></li>
-                                
-                                <li class="mb-2"><i class="fas fa-globe fa-fw fa-lg mr-2"></i><a class="resume-link" href="https://leeturner.me">https://leeturner.me</a></li>
-                                
-                                <li class="mb-2"><i class="fas fa-globe fa-fw fa-lg mr-2"></i><a class="resume-link" href="https://brightonkotlin.com">https://brightonkotlin.com</a></li>
-                                
-                                <li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg mr-2"></i>Brighton, UK</li>
-                            </ul>
-                        </div>
-
-                        
-
-                    </div>
-
-                </div>
-
-
-                <hr>
-
-                
-                
-                <div class="resume-intro py-3">
-
-                    <div class="media flex-column flex-md-row align-items-center">
-
-                        
-                        <img class="resume-profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" src="https://leeturner.tech//assets/images/lee_avatar.jpg" alt="image">
-                        
-
-                        <div class="media-body text-left">
-                            
-                            <p class="mb-0">I am an experienced software engineer with over 20 years experience working on large scale software implementations and have a passion for well crafted, pragmatically tested software. I am currently working at WireMock as a Senior Software Engineer and have significant experience in Java, Kotlin and Spring Boot along with test-driven development and stringent source and release management processes. I am also experienced with agile practices such as scrum, pair programming and continuous integration.</p>
-                            
-                            <p class="mb-0">I am constantly learning and extending my skills and am able to become proficient in new languages quickly. I contribute to open-source projects and write and present about software development and software testing and I am comfortable working either as part of a bigger development team or as a solo developer.</p>
-                            
-                            <p class="mb-0">I am a <a href="https://snyk.io/snyk-ambassadors">Snyk Ambassador</a> - a voluntary role supported by <a href="https://snyk.io">Snyk</a> for professionals who are passionate about application security, want to lead by example, champion for improved application security by increasing AppSec awareness and being active in our respective communities.</p>
-                            
-                            <p class="mb-0">I am the founder of the <a href="https://brightonkotlin.com">Brighton Kotlin</a> and Brighton JUG meetup groups where we bring Kotlin and Java users, enthusiasts and learners from beginners to experts, and anyone wanting to get involved with the Kotlin/JVM ecosystem together to learn and support each other.</p>
-                            
-                            <p class="mb-0">My specialties are in Java &amp; Kotlin microservice architectures, test-driven development and agile software development.</p>
-                            
-                        </div>
-
-                    </div>
-
-                </div>
-
-                
-
-                <hr>
-
-                <div class="resume-body">
-
-                    <div class="row">
-
-                        <div class="resume-main col-12 col-lg-8 col-xl-9 pr-0 pr-lg-5">
-
-                            
-                            
-<section class="achievements-section py-3">
-
-    <h3 class="text-uppercase resume-section-heading mb-4">Key Achievements</h3>
-    <div class="item-content">
-        
-        <div class="item mb-3">
-            <ul class="resume-list">
-                
-                <li><strong>Responsible for the design and implementation of the insufficient funds process</strong> for Swift payments at Crown Agents Bank.</li>
-                
-                <li><strong>Technical &amp; implementation lead on Crunch&rsquo;s single sign on project</strong> bringing authentication and user management of all Crunch products into a single portal and implementation. This project paved the way for Crunch&rsquo;s long term plans to systematically rebuild their core accountancy application.</li>
-                
-                <li><strong>Introduced Kotlin into the backend echo-system</strong> as an option for Crunch developers.  Building our initial exemplar Kotlin Spring Boot services to provide reference points for the backend team</li>
-                
-                <li><strong>Implemented a Progression Framework</strong> across the Crunch engineering function to provide our developers clarity over where they currently are and how to progress and grow in their work</li>
-                
-                <li><strong>Designed and developed a suite of common Java and XSL components</strong> which allowed developers of the NHS Clinical Spine Application to provide a consistent user experience which conformed to the World Wide Web Consortium (W3C) guidelines on Web Content Accessibility.</li>
-                
-                <li><strong>Being a key member of the team which delivered the &ldquo;Really Big Programme&rdquo;</strong> at Britannia Building Society – winner of the BCS Financial and Related Services Award 2004, the BCS Flagship Achievement Award 2004 and Corporate IT Forum Project of the Year 2004.</li>
-                
-                <li><strong>Delivered to time and quality</strong> a bespoke browser based mortgage system to be utilised across all Britannia branches.</li>
-                
-            </ul>
-        </div>
+  <a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="wordmark" href="/">Lee Turner<span>.</span></a>
+    <div class="header-actions">
+      <button type="button" class="pill-button print-button" hidden><svg class="icon icon-print" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg><span>Print / PDF</span>
+      </button>
+      <button type="button" class="icon-button theme-toggle" aria-label="Switch between light and dark mode"><svg class="icon icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><svg class="icon icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
     </div>
+  </div>
+</header>
+
+  <main id="main"><section class="hero">
+  <div class="wrap hero-inner">
+    <div class="hero-text">
+      <p class="eyebrow">Curriculum vitae · Brighton, UK</p>
+      <h1>Lee Turner<span>.</span></h1><p class="tagline">Senior Software Engineer at Wiremock</p>
+      <ul class="contact-list">
+        <li><a href="https://leeturner.me"><svg class="icon icon-globe" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20M2 12h20"/></svg><span>leeturner.me</span></a></li>
+        <li><a href="https://brightonkotlin.com"><svg class="icon icon-globe" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20M2 12h20"/></svg><span>brightonkotlin.com</span></a></li>
+      </ul>
+      <ul class="social-chips">
+        <li><a href="//github.com/leeturner" rel="me noopener"><svg class="icon icon-github" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg><span>Github</span></a></li>
+        <li><a href="//linkedin.com/in/turnerlee/" rel="me noopener"><svg class="icon icon-linkedin" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg><span>LinkedIn</span></a></li>
+        <li><a href="https://hachyderm.io/@leeturner" rel="me noopener"><svg class="icon icon-mastodon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg><span>Mastodon</span></a></li>
+        <li><a href="https://bsky.app/profile/leeturner.bsky.social" rel="me noopener"><svg class="icon icon-bluesky" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg><span>Bluesky</span></a></li>
+        <li><a href="//leeturner.me/" rel="me noopener"><svg class="icon icon-rss" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg><span>Personal Blog</span></a></li>
+        <li><a href="//brightonkotlin.com/" rel="me noopener"><svg class="icon icon-rss" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg><span>Brighton Kotlin</span></a></li>
+      </ul>
+    </div>
+    <img class="avatar" src="/assets/images/lee_avatar.jpg" alt="" width="220" height="220">
+  </div>
 </section>
-                            
 
-                            
-                            
-                            <section class="work-section py-3">
+<div class="wrap sections">
+<section class="cv-section" aria-labelledby="profile"><div class="section-label">
+  <h2 class="eyebrow" id="profile">Profile</h2>
+</div>
 
-                                <h3 class="text-uppercase resume-section-heading mb-4">Work Experience</h3>
-
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Senior Software Engineer</h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">WireMock | Nov 2023 – Present</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>Senior Software Engineer in the WireMock engineering team, working on the WireMock Cloud SaaS product and WireMock open source core committer.</p>
-                                        <ul class="resume-list">
-                                            
-                                            <li>Built the WireMock Cloud AI agent, an in-app assistant that helps users create, update and debug their mock APIs, generating mocks from natural-language prompts, OpenAPI specs and example traffic.</li>
-                                            
-                                            <li>Built shared AI skills used across the WireMock engineering team.</li>
-                                            
-                                            <li>Built the WireMock Cloud SCIM integration to allow enterprise customers to manage users and teams via their SCIM enabled IDP.</li>
-                                            
-                                            <li>Implemented GraphQL and gRPC mocking in WireMock Cloud.</li>
-                                            
-                                            <li>Built stateful mocking in WireMock Cloud, allowing mocks to persist and change state across requests to simulate realistic workflows.</li>
-                                            
-                                            <li>Built advanced WireMock matchers for enterprise clients.</li>
-                                            
-                                            <li>Built CSV and database (JDBC) data sources in WireMock Cloud for data-driven mock responses.</li>
-                                            
-                                            <li>Built Mock API version history across settings, stubs and IDL documents.</li>
-                                            
-                                            <li>Built record/playback and whole-API push/pull into the WireMock CLI.</li>
-                                            
-                                            <li>Maintained feature parity between the on-premise Kubernetes edition and the SaaS product, and supported enterprise clients through k8s installations.</li>
-                                            
-                                            <li>Responsible for our AWS cloud infrastructure, managed as code with the AWS CDK in Kotlin.</li>
-                                            
-                                            <li>Core committer on the <a href="https://github.com/wiremock/wiremock">WireMock open source project</a>, with 30+ merged pull requests including HTTP QUERY method support, new Handlebars helpers, extension lifecycle hooks, webhook event reporting and Jetty 12 upgrades.</li>
-                                            
-                                            <li>Created open source WireMock extensions and integrations, including the <a href="https://github.com/leeturner/wiremock-blns-extension">Big List of Naughty Strings extension</a> and <a href="https://github.com/leeturner/wiremock-micronaut">WireMock Micronaut</a>.</li>
-                                            
-                                            <li>Developer advocacy – speaking at conferences (API Days Paris) and local meetups.</li>
-                                            
-                                        </ul>
-                                    </div>
-                                </div>
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Senior Software Engineer</h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">Crown Agents Bank | June 2022 – Nov 2023</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>Senior Software Engineer in the Payments Domain, working on the team responsible for rearchitecting the Swift payments flow to integrate with the core banking system providing a more stable and scalable payments flow.</p>
-                                        <ul class="resume-list">
-                                            
-                                            <li>Responsible for implementing BIC code validation across our API.</li>
-                                            
-                                            <li>Responsible for the design and implementation of the insufficient funds process for Swift payments, spanning the Payment Gateway and core banking system.</li>
-                                            
-                                            <li>Responsible for the infrastructure for the the new Swift payments flow - using Terraform and Ansible for all infrastructure orchestration.</li>
-                                            
-                                            <li>Built a POC to mock the core banking system integration APIs using Wiremock. This greatly improved the teams ability to test the new swift flow locally.</li>
-                                            
-                                            <li>Implementation of developer tooling to capture and verify API callbacks when developing locally.  This side project was built using Micronaut.</li>
-                                            
-                                            <li>Implementation of a testing framework to simulate a stream of configurable events to the callback API.</li>
-                                            
-                                            <li>Responsible for the design and implementation of the Swift flow callback endpoint security.</li>
-                                            
-                                            <li>Mentoring and pairing with junior and senior members of the team to help spread knowledge and support team members where possible.</li>
-                                            
-                                            <li>Established the Security Guild within the Payments Domain and introduced dependency scanning into the software development lifecycle.</li>
-                                            
-                                            <li>Responsible for Engineering the Engineering Experience within the Payments Domain - shaping the engineering habitat, increasing developer joy and productivity.</li>
-                                            
-                                        </ul>
-                                    </div>
-                                </div>
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Brighton JUG Founder &amp; Organiser</h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">Brighton JUG | Jan 2022 – Present</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>Brighton JUG is a group bringing together Java users, enthusiasts and learners. We’re interested in the whole world of Java – android development, server frameworks, interesting tools, applications, development methodologies and so on and so on – anything Java. Our meeting-ups will include talks, workshops and socials.</p>
-                                        <ul class="resume-list">
-                                            
-                                        </ul>
-                                    </div>
-                                </div>
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Snyk Ambassador</h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">Synk | September 2021 – Present</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>The Snyk Ambassador Program is a voluntary role supported by <a href="https://snyk.io">Snyk</a> for professionals who are passionate about application security.  The idea is to lead by example, championing for improved application security by increasing AppSec awareness, being active in your respective communities, and celebrating wins.  We share our interest, expertise, and excitement within our communities to help other developers and engineers build secure software.  I was one of the first 8 people accepted onto the program.  You can find out more here - <a href="https://snyk.io/snyk-ambassadors/">https://snyk.io/snyk-ambassadors/</a></p>
-                                        <ul class="resume-list">
-                                            
-                                            <li>Part of the live hosting team for <a href="https://www.devoxx.co.uk/">Devoxx UK</a> 2021 where diverse, local and global talent introduce the newest and most vital content from the development world. Responsible for welcoming speakers, managing the live chat and monitoring questions throughout the session.  After each session I hosted the live Q &amp; A for the speakers.</li>
-                                            
-                                        </ul>
-                                    </div>
-                                </div>
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Lead Backend Developer</h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">Crunch | May 2020 – June 2022</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>As Lead backend Developer I am the leader, convenor, and organiser of the backend function. I provide a single point of contact with the Head of Solutions Architecture and Principal Technical Architect, Head of Engineering, and Lead Front End Developer. I am responsible for playing a key role in setting direction and to then embed within the backend function, ensuring all backend developers can work productively and happily. Part of my role as Lead Backend Developer is to provide a Developer Advocacy role, being a conduit between Crunch Engineering and the world of external software developers and in the process raise Crunch brand awareness.</p>
-                                        <ul class="resume-list">
-                                            
-                                            <li>Developing and implementing the Crunch Java &amp; Kotlin coding standards.</li>
-                                            
-                                            <li>Being the main point of contact for the business for high-level estimation meetings for roadmap items.</li>
-                                            
-                                            <li>Actively contribute to department meetings, TechTalks, and training sessions/workshops - sharing best practices and lessons learnt to help raise the knowledge base of the team as a whole.</li>
-                                            
-                                            <li>Responsible for outlining and maintaining a mentoring pathway for New Starters and Junior Developers.</li>
-                                            
-                                            <li>Responsible for implementing a Progression Framework across the Crunch engineering function to provide our developers clarity over where they currently are and how to progress and grow in their work.</li>
-                                            
-                                            <li>Championing open source at Crunch by building relationships with our open source partners, i.e. companies, developers, and tools that we use and ensuring we have a good range of Open Source projects of our own.</li>
-                                            
-                                            <li>Championing application security (AppSec) with the developers at Crunch and being part of the initial responders team responsible for investigating and responding to issues raised through the Crunch responsible disclosure process.</li>
-                                            
-                                        </ul>
-                                    </div>
-                                </div>
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Brighton Kotlin Founder &amp; Organiser</h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">Brighton Kotlin | August 2019 – Present</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>This is a group is for Kotlin users, enthusiasts and learners from beginners to experts, and anyone wanting to get involved with the Kotlin/JVM ecosystem.  The aim of Brighton Kotlin is to build a community of people who get together to have regular meetups, presentations, talks, code labs and hackathons</p>
-                                        <ul class="resume-list">
-                                            
-                                        </ul>
-                                    </div>
-                                </div>
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Senior Java Developer</h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">Crunch | Sep 2018 – May 2020</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>Java/Kotlin developer responsible for new technologies and replacing our core accountancy application.</p>
-                                        <ul class="resume-list">
-                                            
-                                            <li>Technical &amp; implementation lead on Crunch&rsquo;s single sign on project bringing authentication and user management of all Crunch products into a single portal and implementation. This project paved the way for Crunch&rsquo;s long term plans to systematically rebuild their core accountancy application.  Managed the in-house development team along side various contractors throughout the life of the project.</li>
-                                            
-                                            <li>Responsible for architecting and building Crunch&rsquo;s initial Open Banking implementation consisting of multiple Spring Boot microservices interfacing with external bank APIs.</li>
-                                            
-                                            <li>Along with the Principal Architect, responsible for introducing Kotlin into the backend echo-system as an option for our developers.  Building our initial exemplar Kotlin services to provide reference points for the backend team.</li>
-                                            
-                                            <li>Responsible for migrating our entire fleet of microservices from JUnit 4 to JUnit 5 (Jupiter).</li>
-                                            
-                                        </ul>
-                                    </div>
-                                </div>
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Java Developer</h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">Crunch | Aug 2017 – Sep 2018</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>Java developer on the core product team – responsible for the maintenance and improvement of Crunch’s core accounting SASS product and key business critical microservices using agile methodologies.</p>
-                                        <ul class="resume-list">
-                                            
-                                            <li>Part of the core product team responsible for new features, bug fixes and testing of Crunch’s core accounting product.</li>
-                                            
-                                            <li>Using agile development practices to take the stories defined and prioritised by the Product Owner and architecting solutions to meet those requirements.</li>
-                                            
-                                            <li>Assisting with the full end to end release management process - deploying software to development, test and production environments.</li>
-                                            
-                                            <li>Taking part in code reviews from other developers in the team and providing constructive feedback.</li>
-                                            
-                                            <li>Building, testing and deploying Spring Boot microservices to interface with external API from strategic partners such as Salesforce and receipt processing services.</li>
-                                            
-                                            <li>Passionate about promoting best practice and new technologies with the wider engineering team by presenting tech talks on topics such as Mutation Testing and Fn Project.</li>
-                                            
-                                        </ul>
-                                    </div>
-                                </div>
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Founder</h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">From Small Acorns | Jan 2007 – July 2020</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>Owner and founder of From Small Acorns created to provide Technical Consultancy for high growth businesses. I provided a hands-on, consultative role where I got under the hood of our client’s business to fully understand where we could add value.</p>
-                                        <ul class="resume-list">
-                                            
-                                            <li>Developing in-house data analysis tools for our team to use on clients projects. These were web based tools using a number different technologies and frameworks including Java/Grails and PHP/Cakephp.</li>
-                                            
-                                            <li>Responsible for business development – organisation growth, client acquisition and client on-boarding.</li>
-                                            
-                                            <li>Client engagement and needs analysis – as the primary contact for our clients, I engage with people at all levels of the organisation to define a strategy that will achieve our client’s goals.</li>
-                                            
-                                            <li>Team Success – Supporting our team in the implementation and monitoring of that strategy through too successful outcome for our clients.</li>
-                                            
-                                            <li>Creating custom measurement plans specific to our client’s business and implementing those plans using Google Analytics.</li>
-                                            
-                                            <li>Working closely with our team to constantly test new marketing strategies and update our working practices to achieve the best results for our clients.</li>
-                                            
-                                            <li>Helped our clients install, configure and optimise their websites. These were predominantly PHP based websites using Wordpress and Drupal.</li>
-                                            
-                                        </ul>
-                                    </div>
-                                </div>
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Senior Java Developer</h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">LBi | Jan 2005 – Sept 2007</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>Map of Medicine, NHS National Programme for IT (NPfIT). Responsible for the development of the end user component of the Map of Medicine. This is the component that displays the map content across all specialties to clinicians and patients, Technologies Used: Java, Spring, Spring Webflow, Cocoon, XML, XSLT and Java Server Pages</p>
-                                        <ul class="resume-list">
-                                            
-                                            <li>Refactoring an existing code base as well as architecting and developing applications from scratch.</li>
-                                            
-                                            <li>Introduction of a test driven development model to the core development team and later expanding that out to a remote team in Poland.</li>
-                                            
-                                            <li>Creation and testing of an automated build and continuous integration process to support our new release procedures.</li>
-                                            
-                                            <li>Creation of the initial performance testing suite.</li>
-                                            
-                                            <li>Updates to the application required to ensure it met the stringent performance criteria specified by the client and the NHS authority.</li>
-                                            
-                                            <li>Involved in a move to Agile development practices for the whole development team – leading daily scrum stand ups.</li>
-                                            
-                                            <li>Visiting client sites to consult on environment setup and configuration.</li>
-                                            
-                                        </ul>
-                                    </div>
-                                </div>
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Senior Java Developer</h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">LogicaCMG UK Ltd | Mar 2004 – Jan 2005</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>NHS National Programme for IT (NPfIT) developing the Clinical Spine Application (CSA) Responsible for developing library of common components, developed in both XSL and Java, to provide a unified consistent front end to the user. Technologies Used: Java, XML, XSLT, CSS, Struts, Spring framework, Apache Ant</p>
-                                        <ul class="resume-list">
-                                            
-                                            <li>Ensuring all user interface elements conformed to the World Wide Web Consortium (W3C) guidelines on web content accessibility.</li>
-                                            
-                                            <li>Responsible for developing W3C compliant Cascading Style Sheets which would remain consistent across four different browsers on two different platforms.</li>
-                                            
-                                            <li>Developed two prototypes to investigate the use of web applications frameworks within the overall architecture.</li>
-                                            
-                                            <li>Introduced Spring Framework which was used extensively throughout the presentation layer as a means of controlling application logic.</li>
-                                            
-                                            <li>Introduction of Apache Ant as a programme wide build tool.</li>
-                                            
-                                        </ul>
-                                    </div>
-                                </div>
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Senior Java Developer</h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">Britannia Building Society | Oct 2001 – Mar 2004</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>Consultant for Logica CMG on the Systems Integration Stream, Britannia Building Society. Responsible for the development and release management of the integration components developed in the systems integration stream. Technologies Used: Java, EJB, Servlets, XML, XSLT, HTML, MQ Series, JMS, Apache Ant and Oracle.</p>
-                                        <ul class="resume-list">
-                                            
-                                            <li>Development of a XML/XSLT based thin browser client and Java servlet responsible for delegating requests to and processing responses from various distributed server components via MQ Series.</li>
-                                            
-                                            <li>Requirements gathering, design using UML, proof of concept, development, documentation and deployment.</li>
-                                            
-                                            <li>Coordinating a team of developers to ensure quality and timely software releases.</li>
-                                            
-                                            <li>Coordinating a support team to ensure the availability of the testing environments and managing faults raised by the test team.</li>
-                                            
-                                            <li>Introduction of the Apache Ant build tool as a means to build all components developed by the systems integration stream.</li>
-                                            
-                                        </ul>
-                                    </div>
-                                </div>
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Systems Developer</h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">Watt Gilchrist Ltd (Formerly Gilchrist Bros. Ltd) | July 1999 – Oct 2001</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>Responsible for reviewing all development procedures and technologies with the aim of providing a platform to build all future internet based systems. Technologies Used: Java, EJB, Servlets, JavaMail, Weblogic Application Server, Oracle DB, UML</p>
-                                        <ul class="resume-list">
-                                            
-                                            <li>Introduction of UML for the documentation of user requirements and the modelling of system specifications.</li>
-                                            
-                                            <li>Development of POC (Proof Of Concept) prototype using Java 2 Enterprise Edition (EJB, Servlets), with Oracle as back end database and WebLogic as middle tier application server.</li>
-                                            
-                                            <li>Development of a web based front end using Java Servlets, authenticated access via Oracle database.</li>
-                                            
-                                            <li>Development of architecture for general purpose security and personalisation modules – user ID/password authentication, user management and incorporating JavaMail for notifications, alerts etc.</li>
-                                            
-                                        </ul>
-                                    </div>
-                                </div>
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Analyst/Programmer</h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">Gilchrist Bros. Ltd | June 1997 – Sept 1998</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>Responsible for application development, testing, implementation and organisation wide deployment of in-house custom applications. Technologies Used: Magic rapid application development environment, Visual Basic, Btrieve and MS SQL Server</p>
-                                        <ul class="resume-list">
-                                            
-                                            <li>Liaison with managers and users re application and systems development requirements.</li>
-                                            
-                                            <li>Development of a production/accounting tool for Asda Wal-Mart managing a cash flow of £6 million pounds per annum.</li>
-                                            
-                                        </ul>
-                                    </div>
-                                </div>
-                                
-
-                            </section>
-
-                            
-
-                            
-                            
-<section class="trainings-section py-3">
-
-    <h3 class="text-uppercase resume-section-heading mb-4">Courses &amp; Training</h3>
-
-    
-    <div class="item mb-3">
-        <div class="item-heading row align-items-top mb-2">
-            <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Implementing Event-Driven Systems using DDD, CQRS and Event Sourcing</h4>
-            <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">AxonIQ, 2022</div>
-        </div>
-        <div class="item-content">
-            <p>DDD, CQRS, and Event Sourcing theory, explaining the basic concepts for implementing a service using Axon. It also demonstrates how to apply the non-functional requirements.</p>
-        </div>
-    </div>
-    
-    <div class="item mb-3">
-        <div class="item-heading row align-items-top mb-2">
-            <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Introduction to DDD, CQRS and Event Sourcing</h4>
-            <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">AxonIQ, 2022</div>
-        </div>
-        <div class="item-content">
-            <p>This course covers the essential building blocks of  Domain-Driven Design, Command-Query Responsibility Separation  and Event Sourcing concepts.</p>
-        </div>
-    </div>
-    
-    <div class="item mb-3">
-        <div class="item-heading row align-items-top mb-2">
-            <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Kotlin For Java Developers</h4>
-            <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Udemy, 2019</div>
-        </div>
-        <div class="item-content">
-            <p>Up skilling in Kotlin to enable the introduction of Kotlin as an option for Crunch backend developers</p>
-        </div>
-    </div>
-    
-    <div class="item mb-3">
-        <div class="item-heading row align-items-top mb-2">
-            <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"><a href="https://www.jetstack.io/training/kubernetes-in-practice-day1/">Kubernetes in Practice</a></h4>
-            <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Jetstack, 2019</div>
-        </div>
-        <div class="item-content">
-            <p>Provision a Kubernetes cluster, Run an application on Kubernetes and examine its logs and monitor its health, Use Readiness and Liveness probes to allow Kubernetes to maintain an application</p>
-        </div>
-    </div>
-    
-    <div class="item mb-3">
-        <div class="item-heading row align-items-top mb-2">
-            <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"><a href="https://www.credly.com/badges/f0961cc5-b4ba-45a3-adab-719da1ec81d7/linked_in_profile">Oracle MOOC: Java Virtual Machine Troubleshooting</a></h4>
-            <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Oracle, 2018</div>
-        </div>
-        <div class="item-content">
-            <p>Understand Memory Management and Garbage Collection, Recognise the Symptoms of Memory Problems, Utilise Diagnostic Data Collection and Analysis tools</p>
-        </div>
-    </div>
-    
-
+  <div class="section-body summary">
+    <p>I am an experienced software engineer with over 20 years experience working on large scale software implementations and have a passion for well crafted, pragmatically tested software. I am currently working at WireMock as a Senior Software Engineer and have significant experience in Java, Kotlin and Spring Boot along with test-driven development and stringent source and release management processes. I am also experienced with agile practices such as scrum, pair programming and continuous integration.</p>
+    <p>I am constantly learning and extending my skills and am able to become proficient in new languages quickly. I contribute to open-source projects and write and present about software development and software testing and I am comfortable working either as part of a bigger development team or as a solo developer.</p>
+    <p>I am a <a href="https://snyk.io/snyk-ambassadors">Snyk Ambassador</a> - a voluntary role supported by <a href="https://snyk.io">Snyk</a> for professionals who are passionate about application security, want to lead by example, champion for improved application security by increasing AppSec awareness and being active in our respective communities.</p>
+    <p>I am the founder of the <a href="https://brightonkotlin.com">Brighton Kotlin</a> and Brighton JUG meetup groups where we bring Kotlin and Java users, enthusiasts and learners from beginners to experts, and anyone wanting to get involved with the Kotlin/JVM ecosystem together to learn and support each other.</p>
+    <p>My specialties are in Java &amp; Kotlin microservice architectures, test-driven development and agile software development.</p>
+  </div>
 </section>
-                            
 
-                            
-                            
-                            <section class="project-section py-3">
+<section class="cv-section" aria-labelledby="achievements"><div class="section-label">
+  <h2 class="eyebrow" id="achievements">Key Achievements</h2>
+</div>
 
-                                <h3 class="text-uppercase resume-section-heading mb-4">Projects</h3>
+  <div class="section-body">
+    <ul class="achievements">
+      <li><strong>Responsible for the design and implementation of the insufficient funds process</strong> for Swift payments at Crown Agents Bank.</li>
+      <li><strong>Technical &amp; implementation lead on Crunch&rsquo;s single sign on project</strong> bringing authentication and user management of all Crunch products into a single portal and implementation. This project paved the way for Crunch&rsquo;s long term plans to systematically rebuild their core accountancy application.</li>
+      <li><strong>Introduced Kotlin into the backend echo-system</strong> as an option for Crunch developers.  Building our initial exemplar Kotlin Spring Boot services to provide reference points for the backend team</li>
+      <li><strong>Implemented a Progression Framework</strong> across the Crunch engineering function to provide our developers clarity over where they currently are and how to progress and grow in their work</li>
+      <li><strong>Designed and developed a suite of common Java and XSL components</strong> which allowed developers of the NHS Clinical Spine Application to provide a consistent user experience which conformed to the World Wide Web Consortium (W3C) guidelines on Web Content Accessibility.</li>
+      <li><strong>Being a key member of the team which delivered the &ldquo;Really Big Programme&rdquo;</strong> at Britannia Building Society – winner of the BCS Financial and Related Services Award 2004, the BCS Flagship Achievement Award 2004 and Corporate IT Forum Project of the Year 2004.</li>
+      <li><strong>Delivered to time and quality</strong> a bespoke browser based mortgage system to be utilised across all Britannia branches.</li>
+    </ul>
+  </div>
+</section>
 
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"><a href="https://github.com/leeturner/micronaut-launch-tui/">Micronaut Launch TUI</a></h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Open Source, TUI, Kotlin, Micronaut</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>mtui is a terminal UI for creating <a href="https://micronaut.io">Micronaut</a> projects through <a href="https://launch.micronaut.io">Micronaut Launch</a>, written in <a href="https://kotlinlang.org">Kotlin</a> and built with <a href="https://tamboui.dev">TamboUI</a>.  It puts the hundreds of available Micronaut features in one searchable list, lets you preview the generated files and unzips the project straight into the current directory without ever leaving the terminal</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"><a href="https://github.com/leeturner/wiremock-micronaut/">wiremock-micronaut</a></h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Open Source, Library, Kotlin, Micronaut, WireMock</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>wiremock-micronaut simplifies testing HTTP clients in <a href="https://micronaut.io">Micronaut</a> 5 and above.  It starts <a href="https://wiremock.org">WireMock</a> servers per test class, binds their URLs into Micronaut configuration before your beans are created and injects them into your tests.  The annotations mirror <a href="https://github.com/wiremock/wiremock-spring-boot">wiremock-spring-boot</a> and it is available on <a href="https://central.sonatype.com/artifact/io.github.leeturner/wiremock-micronaut">Maven Central</a></p>
-                                    </div>
-                                </div>
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"><a href="https://github.com/leeturner/wiremock-blns-extension/">wiremock-blns-extension</a></h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Open Source, Library, WireMock</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>wiremock-blns-extension is a <a href="https://wiremock.org">WireMock</a> extension that adds a <code>naughtyString</code> Handlebars helper, so templated responses can return strings from the <a href="https://github.com/minimaxir/big-list-of-naughty-strings">Big List of Naughty Strings</a> - SQL injection, RTL text, zero-width characters, emoji, Zalgo text and more.  It works with both embedded WireMock and the standalone JAR / Docker image and is available on <a href="https://central.sonatype.com/artifact/io.github.leeturner/wiremock-blns-extension">Maven Central</a></p>
-                                    </div>
-                                </div>
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"><a href="https://github.com/leeturner/xport/">Xport</a></h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Open Source, CLI, Kotlin, Micronaut</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>Xport is a command-line tool built with Kotlin and Micronaut that processes Twitter data exports, converting them from JavaScript format to standard JSON and then to Hugo-compatible Markdown.  This allows the tweets to then be used in a <a href="https://gohugo.io/">Hugo</a> compatible microblog like <a href="https://leeturner.me/microblog/">this one</a></p>
-                                    </div>
-                                </div>
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"><a href="https://github.com/leeturner/conways-game-of-life-kotlin/">Conway&rsquo;s Game of Life</a></h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Open Source, Kotlin, Micronaut, Arrow</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>A terminal based implementation of <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway&rsquo;s Game of Life</a> written in <a href="https://kotlinlang.org">Kotlin</a> using <a href="https://micronaut.io">Micronaut</a> and functional programming with <a href="https://arrow-kt.io">Arrow</a>.  The universe wraps around like a torus and can be rendered in the terminal with ANSI colours or in a <a href="https://korge.org/">KorGE</a> 2D window</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"><a href="https://github.com/leeturner/spektrum/">Spektrum</a></h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Open Source, Emulator, Kotlin, Micronaut</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>Spektrum is a work in progress Sinclair ZX Spectrum emulator written in <a href="https://kotlinlang.org">Kotlin</a> and <a href="https://micronaut.io">Micronaut</a>, starting with an emulation of the Z80 CPU</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"><a href="https://github.com/leeturner/micronaut-cli-template/">Micronaut CLI Template</a></h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Open Source, Template, Kotlin, Micronaut</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>A ready to go <a href="https://kotlinlang.org">Kotlin</a> <a href="https://micronaut.io">Micronaut</a> command line application template with all the tooling I like already set up - a Gradle version catalogue, Kotlinter and Detekt for linting, <a href="https://arrow-kt.io">Arrow</a> for functional programming, <a href="https://strikt.io">Strikt</a> for assertions and GitHub Actions and Dependabot for CI</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"><a href="https://github.com/leeturner/callback-logger/">callback-logger</a></h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Open Source, Kotlin, Micronaut</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>callback-logger is a simple <a href="https://kotlinlang.org">Kotlin</a> and <a href="https://micronaut.io">Micronaut</a> service to receive callbacks, which is useful when testing APIs locally that send them.  It logs every <code>POST</code> or <code>PUT</code> it receives with a simple web UI to see what has arrived, and supports custom callback endpoints with configurable response codes and payloads</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"><a href="https://github.com/leeturner/image-term/">image-term</a></h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Open Source, CLI, V</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>image-term is a terminal based image viewer written in <a href="https://vlang.io/">V</a> that renders images as colourful ASCII mosaics.  It scales the image to fit your terminal, corrects for the aspect ratio of terminal characters and averages the colours within each block of pixels</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"><a href="https://leeturner.me/posts/hugo-progression-framework/">Hugo Progression Framework</a></h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Open Source, Hugo, template</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p><strong>Hugo Progression</strong> is a <a href="https://gohugo.io/">Hugo</a> template that can render progression frameworks using the same data format as the <a href="https://github.com/monzo/progression-framework">Monzo progression framework</a>. A progression framework (or <em>competency matrix</em>, <em>career ladder</em>, <em>career pathway</em>) is a tool to help people within an organisation understand where they currently are and how to progress and grow in their work. It also helps an organisation map people’s competencies (their skills and knowledge) to compensation (how they’re rewarded for them financially) - find out more information in <a href="https://leeturner.me/posts/hugo-progression-framework/">this blog post</a> or on <a href="https://github.com/leeturner/hugo-progression">GitHub</a></p>
-                                    </div>
-                                </div>
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"><a href="https://leeturner.me/posts/BlinkyTapeTestWatcher/">BlinkyTapeTestWatcher</a></h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Open Source, Kotlin, JUnit</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>BlinkyTapeTestWatcher is a fun little <a href="https://kotlinlang.org">Kotlin</a> based implementation of the <a href="https://junit.org/junit5/">Junit 5</a> <a href="https://junit.org/junit5/docs/5.5.1/api/org/junit/jupiter/api/extension/TestWatcher.html">TestWatcher API</a> that hooks up your tests to a BlinkyTape LED strip - find out more information in this <a href="https://leeturner.me/posts/blinkytape-junit-testwatcher/">blog post</a> which also contains a video of it in action</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"><a href="https://leeturner.me/posts/pinboard2markdown/">pinboard2markdown</a></h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Open Source, Kotlin, Spring Boot</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>pinboard2markdown is a command line tool written in <a href="https://kotlinlang.org">Kotlin</a> and <a href="https://start.spring.io">Spring Boot</a> that communicates with the <a href="https://pinboard.in/api/">pinboard.in api</a> to retrieve a selection of bookmarks that are tagged with a specified tag.  It then converts those bookmarks to markdown and outputs them to the terminal. I use this tool to build regular newsletters for the backend developers at <a href="https://medium.com/@crunchtech">Crunch</a> and to generate my <a href="https://leeturner.me/tags/bookmarks/">Geek Reads</a> posts</p>
-                                    </div>
-                                </div>
-                                
+<section class="cv-section" aria-labelledby="experience"><div class="section-label">
+  <h2 class="eyebrow" id="experience">Work Experience</h2>
+</div>
 
-                            </section>
+  <div class="section-body timeline">
+    <article class="role">
+      <header class="role-head">
+        <h3>Senior Software Engineer</h3>
+        <p class="meta"><span class="company">WireMock</span><span class="dates">Nov 2023 – Present</span></p>
+      </header><p class="role-details">Senior Software Engineer in the WireMock engineering team, working on the WireMock Cloud SaaS product and WireMock open source core committer.</p>
+      <ul>
+        <li>Built the WireMock Cloud AI agent, an in-app assistant that helps users create, update and debug their mock APIs, generating mocks from natural-language prompts, OpenAPI specs and example traffic.</li>
+        <li>Built shared AI skills used across the WireMock engineering team.</li>
+        <li>Built the WireMock Cloud SCIM integration to allow enterprise customers to manage users and teams via their SCIM enabled IDP.</li>
+        <li>Implemented GraphQL and gRPC mocking in WireMock Cloud.</li>
+        <li>Built stateful mocking in WireMock Cloud, allowing mocks to persist and change state across requests to simulate realistic workflows.</li>
+        <li>Built advanced WireMock matchers for enterprise clients.</li>
+        <li>Built CSV and database (JDBC) data sources in WireMock Cloud for data-driven mock responses.</li>
+        <li>Built Mock API version history across settings, stubs and IDL documents.</li>
+        <li>Built record/playback and whole-API push/pull into the WireMock CLI.</li>
+        <li>Maintained feature parity between the on-premise Kubernetes edition and the SaaS product, and supported enterprise clients through k8s installations.</li>
+        <li>Responsible for our AWS cloud infrastructure, managed as code with the AWS CDK in Kotlin.</li>
+        <li>Core committer on the <a href="https://github.com/wiremock/wiremock">WireMock open source project</a>, with 30+ merged pull requests including HTTP QUERY method support, new Handlebars helpers, extension lifecycle hooks, webhook event reporting and Jetty 12 upgrades.</li>
+        <li>Created open source WireMock extensions and integrations, including the <a href="https://github.com/leeturner/wiremock-blns-extension">Big List of Naughty Strings extension</a> and <a href="https://github.com/leeturner/wiremock-micronaut">WireMock Micronaut</a>.</li>
+        <li>Developer advocacy – speaking at conferences (API Days Paris) and local meetups.</li>
+      </ul>
+    </article>
+    <article class="role">
+      <header class="role-head">
+        <h3>Senior Software Engineer</h3>
+        <p class="meta"><span class="company">Crown Agents Bank</span><span class="dates">June 2022 – Nov 2023</span></p>
+      </header><p class="role-details">Senior Software Engineer in the Payments Domain, working on the team responsible for rearchitecting the Swift payments flow to integrate with the core banking system providing a more stable and scalable payments flow.</p>
+      <ul>
+        <li>Responsible for implementing BIC code validation across our API.</li>
+        <li>Responsible for the design and implementation of the insufficient funds process for Swift payments, spanning the Payment Gateway and core banking system.</li>
+        <li>Responsible for the infrastructure for the the new Swift payments flow - using Terraform and Ansible for all infrastructure orchestration.</li>
+        <li>Built a POC to mock the core banking system integration APIs using Wiremock. This greatly improved the teams ability to test the new swift flow locally.</li>
+        <li>Implementation of developer tooling to capture and verify API callbacks when developing locally.  This side project was built using Micronaut.</li>
+        <li>Implementation of a testing framework to simulate a stream of configurable events to the callback API.</li>
+        <li>Responsible for the design and implementation of the Swift flow callback endpoint security.</li>
+        <li>Mentoring and pairing with junior and senior members of the team to help spread knowledge and support team members where possible.</li>
+        <li>Established the Security Guild within the Payments Domain and introduced dependency scanning into the software development lifecycle.</li>
+        <li>Responsible for Engineering the Engineering Experience within the Payments Domain - shaping the engineering habitat, increasing developer joy and productivity.</li>
+      </ul>
+    </article>
+    <article class="role">
+      <header class="role-head">
+        <h3>Brighton JUG Founder &amp; Organiser</h3>
+        <p class="meta"><span class="company">Brighton JUG</span><span class="dates">Jan 2022 – Present</span></p>
+      </header><p class="role-details">Brighton JUG is a group bringing together Java users, enthusiasts and learners. We’re interested in the whole world of Java – android development, server frameworks, interesting tools, applications, development methodologies and so on and so on – anything Java. Our meeting-ups will include talks, workshops and socials.</p>
+    </article>
+    <article class="role">
+      <header class="role-head">
+        <h3>Snyk Ambassador</h3>
+        <p class="meta"><span class="company">Snyk</span><span class="dates">September 2021 – Present</span></p>
+      </header><p class="role-details">The Snyk Ambassador Program is a voluntary role supported by <a href="https://snyk.io">Snyk</a> for professionals who are passionate about application security.  The idea is to lead by example, championing for improved application security by increasing AppSec awareness, being active in your respective communities, and celebrating wins.  We share our interest, expertise, and excitement within our communities to help other developers and engineers build secure software.  I was one of the first 8 people accepted onto the program.  You can find out more here - <a href="https://snyk.io/snyk-ambassadors/">https://snyk.io/snyk-ambassadors/</a></p>
+      <ul>
+        <li>Part of the live hosting team for <a href="https://www.devoxx.co.uk/">Devoxx UK</a> 2021 where diverse, local and global talent introduce the newest and most vital content from the development world. Responsible for welcoming speakers, managing the live chat and monitoring questions throughout the session.  After each session I hosted the live Q &amp; A for the speakers.</li>
+      </ul>
+    </article>
+    <article class="role">
+      <header class="role-head">
+        <h3>Lead Backend Developer</h3>
+        <p class="meta"><span class="company">Crunch</span><span class="dates">May 2020 – June 2022</span></p>
+      </header><p class="role-details">As Lead backend Developer I am the leader, convenor, and organiser of the backend function. I provide a single point of contact with the Head of Solutions Architecture and Principal Technical Architect, Head of Engineering, and Lead Front End Developer. I am responsible for playing a key role in setting direction and to then embed within the backend function, ensuring all backend developers can work productively and happily. Part of my role as Lead Backend Developer is to provide a Developer Advocacy role, being a conduit between Crunch Engineering and the world of external software developers and in the process raise Crunch brand awareness.</p>
+      <ul>
+        <li>Developing and implementing the Crunch Java &amp; Kotlin coding standards.</li>
+        <li>Being the main point of contact for the business for high-level estimation meetings for roadmap items.</li>
+        <li>Actively contribute to department meetings, TechTalks, and training sessions/workshops - sharing best practices and lessons learnt to help raise the knowledge base of the team as a whole.</li>
+        <li>Responsible for outlining and maintaining a mentoring pathway for New Starters and Junior Developers.</li>
+        <li>Responsible for implementing a Progression Framework across the Crunch engineering function to provide our developers clarity over where they currently are and how to progress and grow in their work.</li>
+        <li>Championing open source at Crunch by building relationships with our open source partners, i.e. companies, developers, and tools that we use and ensuring we have a good range of Open Source projects of our own.</li>
+        <li>Championing application security (AppSec) with the developers at Crunch and being part of the initial responders team responsible for investigating and responding to issues raised through the Crunch responsible disclosure process.</li>
+      </ul>
+    </article>
+    <article class="role">
+      <header class="role-head">
+        <h3>Brighton Kotlin Founder &amp; Organiser</h3>
+        <p class="meta"><span class="company">Brighton Kotlin</span><span class="dates">August 2019 – Present</span></p>
+      </header><p class="role-details">This is a group is for Kotlin users, enthusiasts and learners from beginners to experts, and anyone wanting to get involved with the Kotlin/JVM ecosystem.  The aim of Brighton Kotlin is to build a community of people who get together to have regular meetups, presentations, talks, code labs and hackathons</p>
+    </article>
+    <article class="role">
+      <header class="role-head">
+        <h3>Senior Java Developer</h3>
+        <p class="meta"><span class="company">Crunch</span><span class="dates">Sep 2018 – May 2020</span></p>
+      </header><p class="role-details">Java/Kotlin developer responsible for new technologies and replacing our core accountancy application.</p>
+      <ul>
+        <li>Technical &amp; implementation lead on Crunch&rsquo;s single sign on project bringing authentication and user management of all Crunch products into a single portal and implementation. This project paved the way for Crunch&rsquo;s long term plans to systematically rebuild their core accountancy application.  Managed the in-house development team along side various contractors throughout the life of the project.</li>
+        <li>Responsible for architecting and building Crunch&rsquo;s initial Open Banking implementation consisting of multiple Spring Boot microservices interfacing with external bank APIs.</li>
+        <li>Along with the Principal Architect, responsible for introducing Kotlin into the backend echo-system as an option for our developers.  Building our initial exemplar Kotlin services to provide reference points for the backend team.</li>
+        <li>Responsible for migrating our entire fleet of microservices from JUnit 4 to JUnit 5 (Jupiter).</li>
+      </ul>
+    </article>
+    <article class="role">
+      <header class="role-head">
+        <h3>Java Developer</h3>
+        <p class="meta"><span class="company">Crunch</span><span class="dates">Aug 2017 – Sep 2018</span></p>
+      </header><p class="role-details">Java developer on the core product team – responsible for the maintenance and improvement of Crunch’s core accounting SASS product and key business critical microservices using agile methodologies.</p>
+      <ul>
+        <li>Part of the core product team responsible for new features, bug fixes and testing of Crunch’s core accounting product.</li>
+        <li>Using agile development practices to take the stories defined and prioritised by the Product Owner and architecting solutions to meet those requirements.</li>
+        <li>Assisting with the full end to end release management process - deploying software to development, test and production environments.</li>
+        <li>Taking part in code reviews from other developers in the team and providing constructive feedback.</li>
+        <li>Building, testing and deploying Spring Boot microservices to interface with external API from strategic partners such as Salesforce and receipt processing services.</li>
+        <li>Passionate about promoting best practice and new technologies with the wider engineering team by presenting tech talks on topics such as Mutation Testing and Fn Project.</li>
+      </ul>
+    </article>
+    <article class="role">
+      <header class="role-head">
+        <h3>Founder</h3>
+        <p class="meta"><span class="company">From Small Acorns</span><span class="dates">Jan 2007 – July 2020</span></p>
+      </header><p class="role-details">Owner and founder of From Small Acorns created to provide Technical Consultancy for high growth businesses. I provided a hands-on, consultative role where I got under the hood of our client’s business to fully understand where we could add value.</p>
+      <ul>
+        <li>Developing in-house data analysis tools for our team to use on clients projects. These were web based tools using a number different technologies and frameworks including Java/Grails and PHP/Cakephp.</li>
+        <li>Responsible for business development – organisation growth, client acquisition and client on-boarding.</li>
+        <li>Client engagement and needs analysis – as the primary contact for our clients, I engage with people at all levels of the organisation to define a strategy that will achieve our client’s goals.</li>
+        <li>Team Success – Supporting our team in the implementation and monitoring of that strategy through too successful outcome for our clients.</li>
+        <li>Creating custom measurement plans specific to our client’s business and implementing those plans using Google Analytics.</li>
+        <li>Working closely with our team to constantly test new marketing strategies and update our working practices to achieve the best results for our clients.</li>
+        <li>Helped our clients install, configure and optimise their websites. These were predominantly PHP based websites using Wordpress and Drupal.</li>
+      </ul>
+    </article>
+    <article class="role">
+      <header class="role-head">
+        <h3>Senior Java Developer</h3>
+        <p class="meta"><span class="company">LBi</span><span class="dates">Jan 2005 – Sept 2007</span></p>
+      </header><p class="role-details">Map of Medicine, NHS National Programme for IT (NPfIT). Responsible for the development of the end user component of the Map of Medicine. This is the component that displays the map content across all specialties to clinicians and patients, Technologies Used: Java, Spring, Spring Webflow, Cocoon, XML, XSLT and Java Server Pages</p>
+      <ul>
+        <li>Refactoring an existing code base as well as architecting and developing applications from scratch.</li>
+        <li>Introduction of a test driven development model to the core development team and later expanding that out to a remote team in Poland.</li>
+        <li>Creation and testing of an automated build and continuous integration process to support our new release procedures.</li>
+        <li>Creation of the initial performance testing suite.</li>
+        <li>Updates to the application required to ensure it met the stringent performance criteria specified by the client and the NHS authority.</li>
+        <li>Involved in a move to Agile development practices for the whole development team – leading daily scrum stand ups.</li>
+        <li>Visiting client sites to consult on environment setup and configuration.</li>
+      </ul>
+    </article>
+    <article class="role">
+      <header class="role-head">
+        <h3>Senior Java Developer</h3>
+        <p class="meta"><span class="company">LogicaCMG UK Ltd</span><span class="dates">Mar 2004 – Jan 2005</span></p>
+      </header><p class="role-details">NHS National Programme for IT (NPfIT) developing the Clinical Spine Application (CSA) Responsible for developing library of common components, developed in both XSL and Java, to provide a unified consistent front end to the user. Technologies Used: Java, XML, XSLT, CSS, Struts, Spring framework, Apache Ant</p>
+      <ul>
+        <li>Ensuring all user interface elements conformed to the World Wide Web Consortium (W3C) guidelines on web content accessibility.</li>
+        <li>Responsible for developing W3C compliant Cascading Style Sheets which would remain consistent across four different browsers on two different platforms.</li>
+        <li>Developed two prototypes to investigate the use of web applications frameworks within the overall architecture.</li>
+        <li>Introduced Spring Framework which was used extensively throughout the presentation layer as a means of controlling application logic.</li>
+        <li>Introduction of Apache Ant as a programme wide build tool.</li>
+      </ul>
+    </article>
+    <article class="role">
+      <header class="role-head">
+        <h3>Senior Java Developer</h3>
+        <p class="meta"><span class="company">Britannia Building Society</span><span class="dates">Oct 2001 – Mar 2004</span></p>
+      </header><p class="role-details">Consultant for Logica CMG on the Systems Integration Stream, Britannia Building Society. Responsible for the development and release management of the integration components developed in the systems integration stream. Technologies Used: Java, EJB, Servlets, XML, XSLT, HTML, MQ Series, JMS, Apache Ant and Oracle.</p>
+      <ul>
+        <li>Development of a XML/XSLT based thin browser client and Java servlet responsible for delegating requests to and processing responses from various distributed server components via MQ Series.</li>
+        <li>Requirements gathering, design using UML, proof of concept, development, documentation and deployment.</li>
+        <li>Coordinating a team of developers to ensure quality and timely software releases.</li>
+        <li>Coordinating a support team to ensure the availability of the testing environments and managing faults raised by the test team.</li>
+        <li>Introduction of the Apache Ant build tool as a means to build all components developed by the systems integration stream.</li>
+      </ul>
+    </article>
+    <article class="role">
+      <header class="role-head">
+        <h3>Systems Developer</h3>
+        <p class="meta"><span class="company">Watt Gilchrist Ltd (Formerly Gilchrist Bros. Ltd)</span><span class="dates">July 1999 – Oct 2001</span></p>
+      </header><p class="role-details">Responsible for reviewing all development procedures and technologies with the aim of providing a platform to build all future internet based systems. Technologies Used: Java, EJB, Servlets, JavaMail, Weblogic Application Server, Oracle DB, UML</p>
+      <ul>
+        <li>Introduction of UML for the documentation of user requirements and the modelling of system specifications.</li>
+        <li>Development of POC (Proof Of Concept) prototype using Java 2 Enterprise Edition (EJB, Servlets), with Oracle as back end database and WebLogic as middle tier application server.</li>
+        <li>Development of a web based front end using Java Servlets, authenticated access via Oracle database.</li>
+        <li>Development of architecture for general purpose security and personalisation modules – user ID/password authentication, user management and incorporating JavaMail for notifications, alerts etc.</li>
+      </ul>
+    </article>
+    <article class="role">
+      <header class="role-head">
+        <h3>Analyst/Programmer</h3>
+        <p class="meta"><span class="company">Gilchrist Bros. Ltd</span><span class="dates">June 1997 – Sept 1998</span></p>
+      </header><p class="role-details">Responsible for application development, testing, implementation and organisation wide deployment of in-house custom applications. Technologies Used: Magic rapid application development environment, Visual Basic, Btrieve and MS SQL Server</p>
+      <ul>
+        <li>Liaison with managers and users re application and systems development requirements.</li>
+        <li>Development of a production/accounting tool for Asda Wal-Mart managing a cash flow of £6 million pounds per annum.</li>
+      </ul>
+    </article>
+  </div>
+</section>
 
-                            
+<section class="cv-section" aria-labelledby="projects"><div class="section-label">
+  <h2 class="eyebrow" id="projects">Projects</h2>
+</div>
 
-                            
+  <div class="section-body card-grid">
+    <article class="card">
+      <h3><a href="https://github.com/leeturner/micronaut-launch-tui/">Micronaut Launch TUI</a></h3>
+      <ul class="tags"><li>Open Source</li><li>TUI</li><li>Kotlin</li><li>Micronaut</li>
+      </ul><p>mtui is a terminal UI for creating <a href="https://micronaut.io">Micronaut</a> projects through <a href="https://launch.micronaut.io">Micronaut Launch</a>, written in <a href="https://kotlinlang.org">Kotlin</a> and built with <a href="https://tamboui.dev">TamboUI</a>.  It puts the hundreds of available Micronaut features in one searchable list, lets you preview the generated files and unzips the project straight into the current directory without ever leaving the terminal</p>
+    </article>
+    <article class="card">
+      <h3><a href="https://github.com/leeturner/wiremock-micronaut/">wiremock-micronaut</a></h3>
+      <ul class="tags"><li>Open Source</li><li>Library</li><li>Kotlin</li><li>Micronaut</li><li>WireMock</li>
+      </ul><p>wiremock-micronaut simplifies testing HTTP clients in <a href="https://micronaut.io">Micronaut</a> 5 and above.  It starts <a href="https://wiremock.org">WireMock</a> servers per test class, binds their URLs into Micronaut configuration before your beans are created and injects them into your tests.  The annotations mirror <a href="https://github.com/wiremock/wiremock-spring-boot">wiremock-spring-boot</a> and it is available on <a href="https://central.sonatype.com/artifact/io.github.leeturner/wiremock-micronaut">Maven Central</a></p>
+    </article>
+    <article class="card">
+      <h3><a href="https://github.com/leeturner/wiremock-blns-extension/">wiremock-blns-extension</a></h3>
+      <ul class="tags"><li>Open Source</li><li>Library</li><li>WireMock</li>
+      </ul><p>wiremock-blns-extension is a <a href="https://wiremock.org">WireMock</a> extension that adds a <code>naughtyString</code> Handlebars helper, so templated responses can return strings from the <a href="https://github.com/minimaxir/big-list-of-naughty-strings">Big List of Naughty Strings</a> - SQL injection, RTL text, zero-width characters, emoji, Zalgo text and more.  It works with both embedded WireMock and the standalone JAR / Docker image and is available on <a href="https://central.sonatype.com/artifact/io.github.leeturner/wiremock-blns-extension">Maven Central</a></p>
+    </article>
+    <article class="card">
+      <h3><a href="https://github.com/leeturner/xport/">Xport</a></h3>
+      <ul class="tags"><li>Open Source</li><li>CLI</li><li>Kotlin</li><li>Micronaut</li>
+      </ul><p>Xport is a command-line tool built with Kotlin and Micronaut that processes Twitter data exports, converting them from JavaScript format to standard JSON and then to Hugo-compatible Markdown.  This allows the tweets to then be used in a <a href="https://gohugo.io/">Hugo</a> compatible microblog like <a href="https://leeturner.me/microblog/">this one</a></p>
+    </article>
+    <article class="card">
+      <h3><a href="https://github.com/leeturner/conways-game-of-life-kotlin/">Conway&rsquo;s Game of Life</a></h3>
+      <ul class="tags"><li>Open Source</li><li>Kotlin</li><li>Micronaut</li><li>Arrow</li>
+      </ul><p>A terminal based implementation of <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway&rsquo;s Game of Life</a> written in <a href="https://kotlinlang.org">Kotlin</a> using <a href="https://micronaut.io">Micronaut</a> and functional programming with <a href="https://arrow-kt.io">Arrow</a>.  The universe wraps around like a torus and can be rendered in the terminal with ANSI colours or in a <a href="https://korge.org/">KorGE</a> 2D window</p>
+    </article>
+    <article class="card">
+      <h3><a href="https://github.com/leeturner/spektrum/">Spektrum</a></h3>
+      <ul class="tags"><li>Open Source</li><li>Emulator</li><li>Kotlin</li><li>Micronaut</li>
+      </ul><p>Spektrum is a work in progress Sinclair ZX Spectrum emulator written in <a href="https://kotlinlang.org">Kotlin</a> and <a href="https://micronaut.io">Micronaut</a>, starting with an emulation of the Z80 CPU</p>
+    </article>
+    <article class="card">
+      <h3><a href="https://github.com/leeturner/micronaut-cli-template/">Micronaut CLI Template</a></h3>
+      <ul class="tags"><li>Open Source</li><li>Template</li><li>Kotlin</li><li>Micronaut</li>
+      </ul><p>A ready to go <a href="https://kotlinlang.org">Kotlin</a> <a href="https://micronaut.io">Micronaut</a> command line application template with all the tooling I like already set up - a Gradle version catalogue, Kotlinter and Detekt for linting, <a href="https://arrow-kt.io">Arrow</a> for functional programming, <a href="https://strikt.io">Strikt</a> for assertions and GitHub Actions and Dependabot for CI</p>
+    </article>
+    <article class="card">
+      <h3><a href="https://github.com/leeturner/callback-logger/">callback-logger</a></h3>
+      <ul class="tags"><li>Open Source</li><li>Kotlin</li><li>Micronaut</li>
+      </ul><p>callback-logger is a simple <a href="https://kotlinlang.org">Kotlin</a> and <a href="https://micronaut.io">Micronaut</a> service to receive callbacks, which is useful when testing APIs locally that send them.  It logs every <code>POST</code> or <code>PUT</code> it receives with a simple web UI to see what has arrived, and supports custom callback endpoints with configurable response codes and payloads</p>
+    </article>
+    <article class="card">
+      <h3><a href="https://github.com/leeturner/image-term/">image-term</a></h3>
+      <ul class="tags"><li>Open Source</li><li>CLI</li><li>V</li>
+      </ul><p>image-term is a terminal based image viewer written in <a href="https://vlang.io/">V</a> that renders images as colourful ASCII mosaics.  It scales the image to fit your terminal, corrects for the aspect ratio of terminal characters and averages the colours within each block of pixels</p>
+    </article>
+    <article class="card">
+      <h3><a href="https://leeturner.me/posts/hugo-progression-framework/">Hugo Progression Framework</a></h3>
+      <ul class="tags"><li>Open Source</li><li>Hugo</li><li>template</li>
+      </ul><p><strong>Hugo Progression</strong> is a <a href="https://gohugo.io/">Hugo</a> template that can render progression frameworks using the same data format as the <a href="https://github.com/monzo/progression-framework">Monzo progression framework</a>. A progression framework (or <em>competency matrix</em>, <em>career ladder</em>, <em>career pathway</em>) is a tool to help people within an organisation understand where they currently are and how to progress and grow in their work. It also helps an organisation map people’s competencies (their skills and knowledge) to compensation (how they’re rewarded for them financially) - find out more information in <a href="https://leeturner.me/posts/hugo-progression-framework/">this blog post</a> or on <a href="https://github.com/leeturner/hugo-progression">GitHub</a></p>
+    </article>
+    <article class="card">
+      <h3><a href="https://leeturner.me/posts/BlinkyTapeTestWatcher/">BlinkyTapeTestWatcher</a></h3>
+      <ul class="tags"><li>Open Source</li><li>Kotlin</li><li>JUnit</li>
+      </ul><p>BlinkyTapeTestWatcher is a fun little <a href="https://kotlinlang.org">Kotlin</a> based implementation of the <a href="https://junit.org/junit5/">Junit 5</a> <a href="https://junit.org/junit5/docs/5.5.1/api/org/junit/jupiter/api/extension/TestWatcher.html">TestWatcher API</a> that hooks up your tests to a BlinkyTape LED strip - find out more information in this <a href="https://leeturner.me/posts/blinkytape-junit-testwatcher/">blog post</a> which also contains a video of it in action</p>
+    </article>
+    <article class="card">
+      <h3><a href="https://leeturner.me/posts/pinboard2markdown/">pinboard2markdown</a></h3>
+      <ul class="tags"><li>Open Source</li><li>Kotlin</li><li>Spring Boot</li>
+      </ul><p>pinboard2markdown is a command line tool written in <a href="https://kotlinlang.org">Kotlin</a> and <a href="https://start.spring.io">Spring Boot</a> that communicates with the <a href="https://pinboard.in/api/">pinboard.in api</a> to retrieve a selection of bookmarks that are tagged with a specified tag.  It then converts those bookmarks to markdown and outputs them to the terminal. I use this tool to build regular newsletters for the backend developers at <a href="https://medium.com/@crunchtech">Crunch</a> and to generate my <a href="https://leeturner.me/tags/bookmarks/">Geek Reads</a> posts</p>
+    </article>
+  </div>
+</section>
 
-                        </div>
+<section class="cv-section" aria-labelledby="training"><div class="section-label">
+  <h2 class="eyebrow" id="training">Courses &amp; Training</h2>
+</div>
 
-                        
-                        <aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
+  <div class="section-body">
+    <ul class="entries">
+      <li>
+        <div class="entry-head">
+          <h3>Implementing Event-Driven Systems using DDD, CQRS and Event Sourcing</h3><span class="meta">AxonIQ, 2022</span>
+        </div><p>DDD, CQRS, and Event Sourcing theory, explaining the basic concepts for implementing a service using Axon. It also demonstrates how to apply the non-functional requirements.</p>
+      </li>
+      <li>
+        <div class="entry-head">
+          <h3>Introduction to DDD, CQRS and Event Sourcing</h3><span class="meta">AxonIQ, 2022</span>
+        </div><p>This course covers the essential building blocks of  Domain-Driven Design, Command-Query Responsibility Separation  and Event Sourcing concepts.</p>
+      </li>
+      <li>
+        <div class="entry-head">
+          <h3>Kotlin For Java Developers</h3><span class="meta">Udemy, 2019</span>
+        </div><p>Up skilling in Kotlin to enable the introduction of Kotlin as an option for Crunch backend developers</p>
+      </li>
+      <li>
+        <div class="entry-head">
+          <h3><a href="https://www.jetstack.io/training/kubernetes-in-practice-day1/">Kubernetes in Practice</a></h3><span class="meta">Jetstack, 2019</span>
+        </div><p>Provision a Kubernetes cluster, Run an application on Kubernetes and examine its logs and monitor its health, Use Readiness and Liveness probes to allow Kubernetes to maintain an application</p>
+      </li>
+      <li>
+        <div class="entry-head">
+          <h3><a href="https://www.credly.com/badges/f0961cc5-b4ba-45a3-adab-719da1ec81d7/linked_in_profile">Oracle MOOC: Java Virtual Machine Troubleshooting</a></h3><span class="meta">Oracle, 2018</span>
+        </div><p>Understand Memory Management and Garbage Collection, Recognise the Symptoms of Memory Problems, Utilise Diagnostic Data Collection and Analysis tools</p>
+      </li>
+    </ul>
+  </div>
+</section>
 
+<section class="cv-section" aria-labelledby="skills"><div class="section-label">
+  <h2 class="eyebrow" id="skills">Skills</h2>
+</div>
 
-                            
-                            
-                            <section class="education-section py-3">
-
-                                <h3 class="text-uppercase resume-section-heading mb-4">Education</h3>
-
-                                <ul class="list-unstyled resume-education-list">
-                                    
-                                    <li class="mb-3">
-                                        <div class="resume-degree font-weight-bold">BSc. in Information Systems (with year in industry)</div>
-                                        <div class="resume-degree-org text-muted">University of Leeds</div>
-                                        <div class="resume-degree-time text-muted">1995 - 2000</div>
-                                    </li>
-                                    
-                                    <li class="mb-3">
-                                        <div class="resume-degree font-weight-bold">BTech Computer Studies</div>
-                                        <div class="resume-degree-org text-muted">Chesterfield College</div>
-                                        <div class="resume-degree-time text-muted">1993 - 1995</div>
-                                    </li>
-                                    
-                                </ul>
-
-                            </section>
-
-                            
-
-                            
-
-                            
-                            
-                            <section class="skills-section py-3">
-
-                                <h3 class="text-uppercase resume-section-heading mb-4">Skills</h3>
-
-                                
-                                <div class="item">
-                                    <h4 class="item-title">Technical</h4>
-                                    <ul class="list-unstyled resume-skills-list">
-                                        
-                                        <li class="mb-2">Kotlin/Java</li>
-                                        
-                                        <li class="mb-2">Spring Boot</li>
-                                        
-                                        <li class="mb-2">Golang/Python</li>
-                                        
-                                        <li class="mb-2">Test-driven development</li>
-                                        
-                                        <li class="mb-2">Database (MySQL, Postgress)</li>
-                                        
-                                        <li class="mb-2">Axon Framework - CQRS/Event Sourcing</li>
-                                        
-                                        <li class="mb-2"></li>
-                                        
-                                        <li class="mb-2">Docker, k8s</li>
-                                        
-                                        <li class="mb-2">CI/CD</li>
-                                        
-                                        <li class="mb-2">Agile development practices with extreme programming and scrum</li>
-                                        
-                                        <li class="mb-2">Source code and release management</li>
-                                        
-                                    </ul>
-                                </div>
-                                
-                                <div class="item">
-                                    <h4 class="item-title">Professional</h4>
-                                    <ul class="list-unstyled resume-skills-list">
-                                        
-                                        <li class="mb-2">Passionate about the craft of software development</li>
-                                        
-                                        <li class="mb-2">Continuous learner</li>
-                                        
-                                        <li class="mb-2">Analytical and logical working style</li>
-                                        
-                                        <li class="mb-2">Excellent relationship building</li>
-                                        
-                                        <li class="mb-2">Consistently high energy &amp; enthusiasm</li>
-                                        
-                                        <li class="mb-2">Flexible &amp; adaptable to different roles at different levels</li>
-                                        
-                                        <li class="mb-2">Commitment to deliver</li>
-                                        
-                                        <li class="mb-2">Naturally positive outlook</li>
-                                        
-                                        <li class="mb-2">Able to influence and overcome objections</li>
-                                        
-                                        <li class="mb-2">Communicate with clients and users and all levels of an organisation.</li>
-                                        
-                                        <li class="mb-2">Provide solutions where user requirements appear challenging</li>
-                                        
-                                    </ul>
-                                </div>
-                                
-
-                            </section>
-
-                            
-
-                            
-                            
-                            <section class="skills-section py-3">
-
-                                <h3 class="text-uppercase resume-section-heading mb-4">Languages</h3>
-
-                                <ul class="list-unstyled resume-lang-list">
-                                    
-                                    <li class="mb-2">English <span class="text-muted">(Native)</span></li>
-                                    
-                                </ul>
-
-                            </section>
-
-                            
-
-                            
-                            
-                            <section class="skills-section py-3">
-
-                                <h3 class="text-uppercase resume-section-heading mb-4">Interests</h3>
-
-                                <ul class="list-unstyled resume-interests-list mb-0">
-                                    
-                                    <li class="mb-2">Drawing &amp; Sketchnoting</li>
-                                    
-                                    <li class="mb-2">Retro Gaming</li>
-                                    
-                                    <li class="mb-2">Application Security &amp; Ethical Hacking</li>
-                                    
-                                    <li class="mb-2">Chaos Engineering</li>
-                                    
-                                    <li class="mb-2">Raspberry Pi &amp; Robotics</li>
-                                    
-                                </ul>
-
-                            </section>
-
-                            
-
-                        </aside>
-
-
-                    </div>
-
-                </div>
-
-                <hr>
-
-                
-                
-                <div class="resume-footer text-center">
-
-                    <ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
-                        
-                        <li class="list-inline-item mb-lg-0 mr-3">
-                            <a class="resume-link" href="//github.com/leeturner" target="_blank"><i class="fab fa-github-square fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">Github</span></a>
-                        </li>
-                        
-                        <li class="list-inline-item mb-lg-0 mr-3">
-                            <a class="resume-link" href="//linkedin.com/in/turnerlee/" target="_blank"><i class="fab fa-linkedin fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">LinkedIn</span></a>
-                        </li>
-                        
-                        <li class="list-inline-item mb-lg-0 mr-3">
-                            <a class="resume-link" href="//twitter.com/leeturner" target="_blank"><i class="fab fa-twitter-square fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">@leeturner</span></a>
-                        </li>
-                        
-                        <li class="list-inline-item mb-lg-0 mr-3">
-                            <a class="resume-link" href="//leeturner.me/" target="_blank"><i class="fas fa-rss-square fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">Personal Blog</span></a>
-                        </li>
-                        
-                        <li class="list-inline-item mb-lg-0 mr-3">
-                            <a class="resume-link" href="//brightonkotlin.com/" target="_blank"><i class="fas fa-rss-square fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">Brighton Kotlin</span></a>
-                        </li>
-                        
-                    </ul>
-
-                </div>
-
-                
-
-            </article>
-
-        </div>
-
-        
-        <footer class="footer text-center py-4">
-
-            
-
-            <small class="copyright text-muted">Designed with <i class="fas fa-heart"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-            <br>
-            <small class="copyright">2026 &copy; Lee Turner</small>
-        </footer>
-
-
+  <div class="section-body skill-groups">
+    <div class="skill-group"><h3>Technical</h3>
+      <ul class="tags tags-lg"><li>Kotlin/Java</li><li>Spring Boot</li><li>Micronaut</li><li>Ktor</li><li>Dropwizard</li><li>Golang/Python</li><li>Test-driven development</li><li>WireMock</li><li>Database (MySQL, Postgres)</li><li>Axon Framework - CQRS/Event Sourcing</li><li>Docker, k8s</li><li>AWS</li><li>Terraform</li><li>CI/CD</li><li>Agile development practices with extreme programming and scrum</li><li>Source code and release management</li>
+      </ul>
     </div>
+    <div class="skill-group"><h3>Professional</h3>
+      <ul class="tags tags-lg"><li>Passionate about the craft of software development</li><li>Continuous learner</li><li>Analytical and logical working style</li><li>Excellent relationship building</li><li>Consistently high energy &amp; enthusiasm</li><li>Flexible &amp; adaptable to different roles at different levels</li><li>Commitment to deliver</li><li>Naturally positive outlook</li><li>Able to influence and overcome objections</li><li>Communicate with clients and users and all levels of an organisation.</li><li>Provide solutions where user requirements appear challenging</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-    
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+<section class="cv-section" aria-labelledby="more"><div class="section-label">
+  <h2 class="eyebrow" id="more">And also</h2>
+</div>
 
+  <div class="section-body more-grid">
+    <div class="panel">
+      <h3>Education</h3>
+      <ul class="plain">
+        <li><strong>BSc. in Information Systems (with year in industry)</strong><span class="muted">University of Leeds · 1995 - 2000</span></li>
+        <li><strong>BTech Computer Studies</strong><span class="muted">Chesterfield College · 1993 - 1995</span></li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>Languages</h3>
+      <ul class="plain">
+        <li><strong>English</strong><span class="muted">Native</span></li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>Interests</h3>
+      <ul class="tags"><li>Drawing &amp; Sketchnoting</li><li>Retro Gaming</li><li>Application Security &amp; Ethical Hacking</li><li>Chaos Engineering</li><li>Raspberry Pi &amp; Robotics</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</div>
+  </main>
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; 2026 Lee Turner</span>
+    <nav class="social-links" aria-label="Elsewhere">
+      <a href="//github.com/leeturner" rel="me noopener">Github</a>
+      <a href="//linkedin.com/in/turnerlee/" rel="me noopener">LinkedIn</a>
+      <a href="https://hachyderm.io/@leeturner" rel="me noopener">Mastodon</a>
+      <a href="https://bsky.app/profile/leeturner.bsky.social" rel="me noopener">Bluesky</a>
+      <a href="//leeturner.me/" rel="me noopener">Personal Blog</a>
+      <a href="//brightonkotlin.com/" rel="me noopener">Brighton Kotlin</a>
+    </nav>
+  </div>
+</footer>
+
+  <script src="/js/site.min.c7b9fa7a581302de2bc409e128f2e66d7af4927f8f05d8c92ad6882d90483adc.js" integrity="sha256-x7n6elgTAt4rxAnhKPLmbXr0kn&#43;PBdjJKtaILZBIOtw=" defer></script>
 </body>
-
 </html>
