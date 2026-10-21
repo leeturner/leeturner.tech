@@ -1,4 +1,4 @@
 name = "leeturner-cv"
 license = "MIT"
 description = "Single page CV theme for leeturner.tech, sharing the look of leeturner.me"
-min_version = "0.146.0"
+min_version = "0.158.0"

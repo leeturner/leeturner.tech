@@ -1,9 +1,9 @@
 # Disable unused pages/routes
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy", "term"]
 
 # Page settings
 baseURL = "https://leeturner.tech"
-languageCode = "en"
+locale = "en"
 title = "CV | Lee Turner"
 theme = "leeturner-cv"
 
