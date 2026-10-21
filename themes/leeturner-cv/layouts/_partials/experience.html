@@ -1,0 +1,23 @@
+{{- with .experience }}{{ if .enable }}
+<section class="cv-section" aria-labelledby="experience">
+  {{- partial "section-head.html" (dict "title" (.title | default "Work Experience") "id" "experience") }}
+  <div class="section-body timeline">
+    {{- range .list }}
+    <article class="role">
+      <header class="role-head">
+        <h3>{{ .title | markdownify }}</h3>
+        <p class="meta"><span class="company">{{ .company | markdownify }}</span>{{ with .dates }}<span class="dates">{{ . }}</span>{{ end }}</p>
+      </header>
+      {{- with .details }}<p class="role-details">{{ . | markdownify }}</p>{{ end }}
+      {{- with .items }}
+      <ul>
+        {{- range . }}
+        <li>{{ .details | markdownify }}</li>
+        {{- end }}
+      </ul>
+      {{- end }}
+    </article>
+    {{- end }}
+  </div>
+</section>
+{{- end }}{{ end }}

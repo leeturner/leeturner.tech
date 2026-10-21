@@ -1,0 +1,14 @@
+{{- $cv := partial "cv.html" . }}
+<header class="site-header">
+  <div class="wrap">
+    <a class="wordmark" href="{{ site.Home.RelPermalink }}">{{ $cv.profile.name | default site.Params.author }}<span>.</span></a>
+    <div class="header-actions">
+      <button type="button" class="pill-button print-button" hidden>
+        {{- partial "icon.html" "print" }}<span>Print / PDF</span>
+      </button>
+      <button type="button" class="icon-button theme-toggle" aria-label="Switch between light and dark mode">
+        {{- partial "icon.html" "moon" }}{{ partial "icon.html" "sun" }}
+      </button>
+    </div>
+  </div>
+</header>

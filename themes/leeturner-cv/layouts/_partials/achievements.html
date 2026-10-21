@@ -1,0 +1,13 @@
+{{- with .achievements }}{{ if .enable }}
+<section class="cv-section" aria-labelledby="achievements">
+  {{- partial "section-head.html" (dict "title" (.title | default "Key Achievements") "id" "achievements") }}
+  <div class="section-body">
+    {{- with .details }}<p class="muted">{{ . | markdownify }}</p>{{ end }}
+    <ul class="achievements">
+      {{- range .list }}
+      <li>{{ .details | markdownify }}</li>
+      {{- end }}
+    </ul>
+  </div>
+</section>
+{{- end }}{{ end }}

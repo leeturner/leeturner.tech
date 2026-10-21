@@ -1,0 +1,18 @@
+{{- with .projects }}{{ if .enable }}
+<section class="cv-section" aria-labelledby="projects">
+  {{- partial "section-head.html" (dict "title" (.title | default "Projects") "id" "projects") }}
+  <div class="section-body card-grid">
+    {{- range .list }}
+    <article class="card">
+      <h3>{{ .title | markdownify }}</h3>
+      {{- with .meta }}
+      <ul class="tags">
+        {{- range split . "," }}<li>{{ trim . " " }}</li>{{ end }}
+      </ul>
+      {{- end }}
+      {{- with .tagline }}<p>{{ . | markdownify }}</p>{{ end }}
+    </article>
+    {{- end }}
+  </div>
+</section>
+{{- end }}{{ end }}

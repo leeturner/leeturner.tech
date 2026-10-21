@@ -1,0 +1,15 @@
+{{- with .skills }}{{ if .enable }}
+<section class="cv-section" aria-labelledby="skills">
+  {{- partial "section-head.html" (dict "title" (.title | default "Skills") "id" "skills") }}
+  <div class="section-body skill-groups">
+    {{- range .list }}
+    <div class="skill-group">
+      {{- with .title }}<h3>{{ . }}</h3>{{ end }}
+      <ul class="tags tags-lg">
+        {{- range .items }}{{ with .details }}<li>{{ . | markdownify }}</li>{{ end }}{{ end }}
+      </ul>
+    </div>
+    {{- end }}
+  </div>
+</section>
+{{- end }}{{ end }}

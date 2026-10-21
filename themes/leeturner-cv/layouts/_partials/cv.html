@@ -1,0 +1,2 @@
+{{- /* CV content comes from data/cv.toml, falling back to [params] in the site config. */ -}}
+{{- return (hugo.Data.cv | default site.Params) -}}
