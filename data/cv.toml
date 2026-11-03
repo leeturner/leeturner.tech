@@ -317,6 +317,11 @@
     enable = true
     title = "Projects"
     [[projects.list]]
+    title = "[arrow-detekt-rules](https://github.com/leeturner/arrow-detekt-rules/)"
+    meta = "Open Source, Library, Kotlin, Arrow, detekt"
+    tagline = "arrow-detekt-rules is a [detekt](https://detekt.dev) 2 rule set for [Arrow](https://arrow-kt.io) code.  It catches the mistakes that are easy to make with `Either` and `Raise`, like a catch-all that swallows a raise before it reaches the scope, an `Either` that is never bound, or a `fold` that just rebuilds an `Either`, and suggests the idiomatic Arrow alternative.  It is available on [Maven Central](https://central.sonatype.com/artifact/io.github.leeturner/arrow-detekt-rules)"
+
+    [[projects.list]]
     title = "[Micronaut Launch TUI](https://github.com/leeturner/micronaut-launch-tui/)"
     meta = "Open Source, TUI, Kotlin, Micronaut"
     tagline = "mtui is a terminal UI for creating [Micronaut](https://micronaut.io) projects through [Micronaut Launch](https://launch.micronaut.io), written in [Kotlin](https://kotlinlang.org) and built with [TamboUI](https://tamboui.dev).  It puts the hundreds of available Micronaut features in one searchable list, lets you preview the generated files and unzips the project straight into the current directory without ever leaving the terminal"
@@ -354,7 +359,7 @@
     [[projects.list]]
     title = "[callback-logger](https://github.com/leeturner/callback-logger/)"
     meta = "Open Source, Kotlin, Micronaut"
-    tagline = "callback-logger is a simple [Kotlin](https://kotlinlang.org) and [Micronaut](https://micronaut.io) service to receive callbacks, which is useful when testing APIs locally that send them.  It logs every `POST` or `PUT` it receives with a simple web UI to see what has arrived, and supports custom callback endpoints with configurable response codes and payloads"
+    tagline = "callback-logger is a simple [Kotlin](https://kotlinlang.org) and [Micronaut](https://micronaut.io) service to receive callbacks, which is useful when testing APIs locally that send them.  It records every request sent to it, whatever the path or method, shows them in a live web UI and lets you set the response code and payload"
 
     [[projects.list]]
     title = "[image-term](https://github.com/leeturner/image-term/)"
@@ -370,11 +375,6 @@
     title = "[BlinkyTapeTestWatcher](https://leeturner.me/posts/BlinkyTapeTestWatcher/)"
     meta = "Open Source, Kotlin, JUnit"
     tagline = "BlinkyTapeTestWatcher is a fun little [Kotlin](https://kotlinlang.org) based implementation of the [Junit 5](https://junit.org/junit5/) [TestWatcher API](https://junit.org/junit5/docs/5.5.1/api/org/junit/jupiter/api/extension/TestWatcher.html) that hooks up your tests to a BlinkyTape LED strip - find out more information in this [blog post](https://leeturner.me/posts/blinkytape-junit-testwatcher/) which also contains a video of it in action"
-
-    [[projects.list]]
-    title = "[pinboard2markdown](https://leeturner.me/posts/pinboard2markdown/)"
-    meta = "Open Source, Kotlin, Spring Boot"
-    tagline = "pinboard2markdown is a command line tool written in [Kotlin](https://kotlinlang.org) and [Spring Boot](https://start.spring.io) that communicates with the [pinboard.in api](https://pinboard.in/api/) to retrieve a selection of bookmarks that are tagged with a specified tag.  It then converts those bookmarks to markdown and outputs them to the terminal. I use this tool to build regular newsletters for the backend developers at [Crunch](https://medium.com/@crunchtech) and to generate my [Geek Reads](https://leeturner.me/tags/bookmarks/) posts "
 
 
 [information]
